@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" id="svg8" width="793.7" height="1122.52" version="1.1" viewBox="0 0 210 297">
+  <defs id="defs2">
+    <linearGradient id="linearGradient2822" osb:paint="solid">
+      <stop id="stop2820" offset="0" stop-color="#000" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="linearGradient961" osb:paint="solid">
+      <stop id="stop959" offset="0" stop-color="#000" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <g id="layer1" display="inline" opacity="1">
+    <g id="g220" fill="#d03808" fill-opacity="1" transform="matrix(.28304 0 0 .28292 229.02 7.11)">
+      <g id="g250" fill="#d03808" fill-opacity="1" transform="translate(-682.16 218.93)">
+        <path id="polygon200" fill="#d03808" fill-opacity="1" d="M204.1 305l-.2 5.3-38.5 22.3-4.5-7.7 38.5-22.3z" class="st0"/>
+        <path id="polygon202" fill="#d03808" fill-opacity="1" d="M35.1 397.3l4.4 7.7 40.8-23.5-4.4-7.7z" class="st0"/>
+        <path id="polygon204" fill="#d03808" fill-opacity="1" d="M99.2 360.7l4.5 7.7 38.4-22.3-4.4-7.7z" class="st0"/>
+        <path id="polygon206" fill="#d03808" fill-opacity="1" d="M322.6 332.6l4.5-7.7-38.5-22.3-4.7 2.4.2 5.3z" class="st0"/>
+        <path id="polygon208" fill="#d03808" fill-opacity="1" d="M407.7 381.5l4.4-7.7 40.8 23.5-4.4 7.7z" class="st0"/>
+        <path id="polygon210" fill="#d03808" fill-opacity="1" d="M345.8 346.1l4.5-7.7 38.5 22.3-4.5 7.7z" class="st0"/>
+        <path id="polygon212" fill="#d03808" fill-opacity="1" d="M247.9 162.7H239v-44.5h8.9z" class="st1"/>
+        <path id="polygon214" fill="#d03808" fill-opacity="1" d="M243.5 235.7l-4.5-1.8v-44.5h8.9v44.5z" class="st1"/>
+        <path id="polygon216" fill="#d03808" fill-opacity="1" d="M239 44.4h8.9v47.1H239z" class="st1"/>
+      </g>
+    </g>
+  </g>
+  <g id="layer2" display="inline">
+    <g id="g173" fill="#3b3b3b" fill-opacity="1" display="inline" transform="matrix(.28317 0 0 .28292 68.55 67.88)">
+      <path id="path171" fill="#3b3b3b" fill-opacity="1" stroke-width="1" d="M138.57 10.01l223.2 128.9 7.5 4.3 2.4 1.4V425.11l-2.4 1.4-7.5 4.3-111.65 64.5-94.55 54.7-7.2 4.1v-45.5l2.4-1.4 79.56-46 79.66-46 22.1-12.7V190.11l-183.72 106.1v257.9l-2.4 1.4-7.5 4.3-7.5 4.3-2.4 1.4-2.39-1.4-7.5-4.3-7.5-4.3-2.4-1.4v-257.9l-183.6-106.2V402.61l14.29 8.2 124.44 72 42.48 24.5 2.4 1.4V554.11l-7.2-4.1-94.56-54.7-111.44-64.5-7.5-4.3-2.3-1.4V144.71l2.4-1.4 7.5-4.3c74.36-43 148.83-86 223.2-128.9l7.49-4.3 2.4-1.4 2.4 1.4zm-193.8 146l183.9 106.2 183.92-106.2-168.52-97.3-15.4-9-30.38 17.6-2.1 1.2c-50.47 29.1-100.95 58.3-151.43 87.5z" class="st0"/>
+    </g>
+  </g>
+</svg>
