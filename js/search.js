@@ -1,4 +1,4 @@
-const searchClient = algoliasearch('MFQXTR0GGX', '5573a3939ea4c23f85417380050d7153');
+const searchClient = algoliasearch('MFQXTR0GGX', '31bf2cca1d394cef7f996b09d9605f7a');
 
 const search = instantsearch({
   indexName: 'prod_DOCS',
