@@ -14,7 +14,7 @@
                                 { id: "monthly", name: "59 € per month when paid monthly" },
                                 { id: "yearly", name: "49 € per month when paid annually" },
                             ],
-                            selectedProvider: "exo-euler",
+                            selectedProvider: "scw-agnesi",
                             monthlySubscription: "false"
                             }' method=post action=https://gw.app.8gears.com/function/dedicated-ordering-service/dedicated/customer enctype=application/json><div class="pt-3 form-group row"><div class="col-md-6 spacing"><input type=text required name=first_name class=form-control placeholder="First Name *"><div class=invalid-feedback>Please provide more than two characters.</div></div><div class=col-md-6><input type=text required name=last_name class=form-control placeholder="Last Name *"></div></div><div class=form-group><input type=email required name=_email class=form-control placeholder="Email *">
 <input id=email type=hidden name=email class=form-control placeholder="Email *" style=display:none required></div><div class=form-group><input type=company name=company class=form-control placeholder="Company Name"></div><p class=pt-1>Container Registry Region</p><select x-model=selectedProvider class=form-control name=provider><template x-for="region in regions">
