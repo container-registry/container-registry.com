@@ -1,0 +1,146 @@
+{
+    "chart_count": 0,
+    "creation_time": "2023-11-16 03:10:48.719000+00:00",
+    "current_user_role_id": null,
+    "current_user_role_ids": null,
+    "cve_allowlist": {
+        "creation_time": "0001-01-01 00:00:00+00:00",
+        "expires_at": null,
+        "id": 2027,
+        "items": [],
+        "project_id": 2859,
+        "update_time": "0001-01-01 00:00:00+00:00"
+    },
+    "deleted": null,
+    "metadata": {
+        "auto_scan": null,
+        "enable_content_trust": null,
+        "enable_content_trust_cosign": null,
+        "instance": "c8n_stage",
+        "instanceUrl": "https://c8n-stage.container-registry.com",
+        "monthlyPrice": 699,
+        "monthlyPriceId": "price_1OKI78DmAMB1YDyjUWspz3yN",
+        "oneTimePrice": 1000,
+        "oneTimePriceId": "price_1OI7vtDmAMB1YDyjDM9xChVF",
+        "prevent_vul": null,
+        "public": "false",
+        "retention_id": null,
+        "reuse_sys_cve_allowlist": null,
+        "severity": null
+    },
+    "name": "alexandre-k",
+    "owner_id": 1,
+    "owner_name": "admin",
+    "project_id": 2859,
+    "registry_id": null,
+    "repo_count": 1,
+    "repositories": [
+        {
+            "artifact_count": 1,
+            "artifacts": [
+                {
+                    "accessories": null,
+                    "addition_links": {
+                        "build_history": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/alexandre-k/repositories/hello-world/artifacts/sha256:7e9b6e7ba2842c91cf49f3e214d04a7a496f8214356f41d81a6e6dcad11f11e3/additions/build_history"
+                        },
+                        "vulnerabilities": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/alexandre-k/repositories/hello-world/artifacts/sha256:7e9b6e7ba2842c91cf49f3e214d04a7a496f8214356f41d81a6e6dcad11f11e3/additions/vulnerabilities"
+                        }
+                    },
+                    "annotations": null,
+                    "digest": "sha256:7e9b6e7ba2842c91cf49f3e214d04a7a496f8214356f41d81a6e6dcad11f11e3",
+                    "extra_attrs": {
+                        "architecture": "amd64",
+                        "author": "",
+                        "config": {
+                            "Cmd": [
+                                "/hello"
+                            ],
+                            "Env": [
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+                            ]
+                        },
+                        "created": "2023-05-04T17:37:03.872958712Z",
+                        "os": "linux"
+                    },
+                    "icon": "sha256:0048162a053eef4d4ce3fe7518615bef084403614f8bca43b40ae2e762e11e06",
+                    "id": 4,
+                    "labels": null,
+                    "manifest_media_type": "application/vnd.docker.distribution.manifest.v2+json",
+                    "media_type": "application/vnd.docker.container.image.v1+json",
+                    "project_id": 2859,
+                    "pull_time": "2023-11-21 07:02:18.960000+00:00",
+                    "push_time": "2023-11-16 04:25:38.825000+00:00",
+                    "references": null,
+                    "repository_id": 4,
+                    "scan_overview": null,
+                    "size": 4452,
+                    "tags": [
+                        {
+                            "artifact_id": 4,
+                            "id": 6,
+                            "immutable": false,
+                            "name": "1.1.1",
+                            "pull_time": "0001-01-01 00:00:00+00:00",
+                            "push_time": "2023-11-22 07:56:00.500000+00:00",
+                            "repository_id": 4,
+                            "signed": false
+                        },
+                        {
+                            "artifact_id": 4,
+                            "id": 5,
+                            "immutable": false,
+                            "name": "1.1.0",
+                            "pull_time": "0001-01-01 00:00:00+00:00",
+                            "push_time": "2023-11-22 07:55:52.686000+00:00",
+                            "repository_id": 4,
+                            "signed": false
+                        },
+                        {
+                            "artifact_id": 4,
+                            "id": 4,
+                            "immutable": false,
+                            "name": "latest",
+                            "pull_time": "0001-01-01 00:00:00+00:00",
+                            "push_time": "2023-11-16 04:25:39.465000+00:00",
+                            "repository_id": 4,
+                            "signed": false
+                        }
+                    ],
+                    "type": "IMAGE"
+                }
+            ],
+            "build_history": [
+                {
+                    "created": "2023-05-04T17:37:03.801840823Z",
+                    "created_by": "/bin/sh -c #(nop) COPY file:201f8f1849e89d53be9f6aa76937f5e209d745abfd15a8552fcf2ba45ab267f9 in / "
+                },
+                {
+                    "created": "2023-05-04T17:37:03.872958712Z",
+                    "created_by": "/bin/sh -c #(nop)  CMD [\"/hello\"]",
+                    "empty_layer": true
+                }
+            ],
+            "creation_time": "2023-11-16 04:25:37.188000+00:00",
+            "description": "[comment1]: <> (This is a comment, it will not be included1)\n[comment2]: <> (This is a comment, it will not be included2)\n[//]: # \"This is a comment\"\n[//]: # (This is another comment)\n[author]: <> (Alexandre Krispin)\n[subTitle]: <> (For tests only)\n[shortDescription]: <> (An image used for tests, use it to pull it after checking it out.)\n\n# Hello world\n\nTest container",
+            "id": 4,
+            "metadata": {
+                "//": "This is another comment",
+                "author": "Alexandre Krispin",
+                "comment1": "This is a comment, it will not be included1",
+                "comment2": "This is a comment, it will not be included2",
+                "shortDescription": "An image used for tests, use it to pull it after checking it out.",
+                "subTitle": "For tests only"
+            },
+            "name": "alexandre-k/hello-world",
+            "project_id": 2859,
+            "pull_count": 1,
+            "update_time": "2023-11-21 07:02:28.964000+00:00"
+        }
+    ],
+    "togglable": null,
+    "update_time": "2023-11-16 03:10:48.719000+00:00"
+}

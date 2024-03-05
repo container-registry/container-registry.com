@@ -1,0 +1,215 @@
+{
+    "chart_count": 0,
+    "creation_time": "2020-12-14 23:32:03.118000+00:00",
+    "current_user_role_id": null,
+    "current_user_role_ids": null,
+    "cve_allowlist": {
+        "creation_time": "0001-01-01 00:00:00+00:00",
+        "expires_at": null,
+        "id": 7,
+        "items": [],
+        "project_id": 5,
+        "update_time": "0001-01-01 00:00:00+00:00"
+    },
+    "deleted": null,
+    "metadata": {
+        "auto_scan": "false",
+        "enable_content_trust": "false",
+        "enable_content_trust_cosign": null,
+        "instance": "eight_gears",
+        "instanceUrl": "https://8gears.container-registry.com",
+        "monthlyPrice": 499,
+        "monthlyPriceId": "price_1OKI6bDmAMB1YDyjSwq3XnWF",
+        "oneTimePrice": 999,
+        "oneTimePriceId": "price_1OKHg3DmAMB1YDyj3OsS6yh1",
+        "prevent_vul": "false",
+        "public": "true",
+        "retention_id": null,
+        "reuse_sys_cve_allowlist": "true",
+        "severity": "low"
+    },
+    "name": "examples",
+    "owner_id": 8,
+    "owner_name": "vadim",
+    "project_id": 5,
+    "registry_id": null,
+    "repo_count": 2,
+    "repositories": [
+        {
+            "artifact_count": 1,
+            "artifacts": [
+                {
+                    "accessories": null,
+                    "addition_links": {
+                        "build_history": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/examples/repositories/1gb-random-file/artifacts/sha256:14572d1d87101be8cafbdff344e2aab7f17967dd89863cdc7d9fa9f3604d8602/additions/build_history"
+                        },
+                        "vulnerabilities": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/examples/repositories/1gb-random-file/artifacts/sha256:14572d1d87101be8cafbdff344e2aab7f17967dd89863cdc7d9fa9f3604d8602/additions/vulnerabilities"
+                        }
+                    },
+                    "annotations": null,
+                    "digest": "sha256:14572d1d87101be8cafbdff344e2aab7f17967dd89863cdc7d9fa9f3604d8602",
+                    "extra_attrs": {
+                        "architecture": "amd64",
+                        "author": "",
+                        "config": {
+                            "Cmd": [
+                                "/bin/sh"
+                            ],
+                            "Env": [
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+                            ]
+                        },
+                        "created": "2017-05-15T16:08:38.946514997Z",
+                        "os": "linux"
+                    },
+                    "icon": "sha256:0048162a053eef4d4ce3fe7518615bef084403614f8bca43b40ae2e762e11e06",
+                    "id": 196,
+                    "labels": null,
+                    "manifest_media_type": "application/vnd.docker.distribution.manifest.v2+json",
+                    "media_type": "application/vnd.docker.container.image.v1+json",
+                    "project_id": 5,
+                    "pull_time": "2023-12-06 04:10:41.682000+00:00",
+                    "push_time": "2021-09-08 15:22:13.641000+00:00",
+                    "references": null,
+                    "repository_id": 28,
+                    "scan_overview": null,
+                    "size": 1076040045,
+                    "tags": [
+                        {
+                            "artifact_id": 196,
+                            "id": 165,
+                            "immutable": false,
+                            "name": "latest",
+                            "pull_time": "0001-01-01 00:00:00+00:00",
+                            "push_time": "2021-09-08 15:22:14.322000+00:00",
+                            "repository_id": 28,
+                            "signed": false
+                        }
+                    ],
+                    "type": "IMAGE"
+                }
+            ],
+            "build_history": [
+                {
+                    "created": "2017-05-10T16:38:16.632557712Z",
+                    "created_by": "/bin/sh -c #(nop) ADD file:63f63606d6e289eb607c90e31de81802258906712727e473a2898f0f1ae55bb5 in / "
+                },
+                {
+                    "created": "2017-05-10T16:38:17.391552466Z",
+                    "created_by": "/bin/sh -c #(nop)  CMD [\"/bin/sh\"]",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2017-05-15T16:08:38.946514997Z",
+                    "created_by": "/bin/sh -c dd if=/dev/urandom of=/1gb.file.bin bs=128MB count=32"
+                }
+            ],
+            "creation_time": "2021-09-08 15:22:12.932000+00:00",
+            "description": null,
+            "id": 28,
+            "metadata": {},
+            "name": "examples/1gb-random-file",
+            "project_id": 5,
+            "pull_count": 500,
+            "update_time": "2023-12-06 04:10:46.954000+00:00"
+        },
+        {
+            "artifact_count": 1,
+            "artifacts": [
+                {
+                    "accessories": null,
+                    "addition_links": {
+                        "build_history": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/examples/repositories/hello-world/artifacts/sha256:65a579d1e76f280adb6ccb7340fc6a014057d1add5da562a9dffe1ea5f3dd741/additions/build_history"
+                        },
+                        "vulnerabilities": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/examples/repositories/hello-world/artifacts/sha256:65a579d1e76f280adb6ccb7340fc6a014057d1add5da562a9dffe1ea5f3dd741/additions/vulnerabilities"
+                        }
+                    },
+                    "annotations": null,
+                    "digest": "sha256:65a579d1e76f280adb6ccb7340fc6a014057d1add5da562a9dffe1ea5f3dd741",
+                    "extra_attrs": {
+                        "architecture": "amd64",
+                        "author": null,
+                        "created": "2021-01-03T14:47:20.2304543Z",
+                        "os": "linux"
+                    },
+                    "icon": "sha256:0048162a053eef4d4ce3fe7518615bef084403614f8bca43b40ae2e762e11e06",
+                    "id": 13,
+                    "labels": null,
+                    "manifest_media_type": "application/vnd.docker.distribution.manifest.v2+json",
+                    "media_type": "application/vnd.docker.container.image.v1+json",
+                    "project_id": 5,
+                    "pull_time": "2023-12-06 04:17:13.146000+00:00",
+                    "push_time": "2021-01-03 14:47:37.662000+00:00",
+                    "references": null,
+                    "repository_id": 8,
+                    "scan_overview": null,
+                    "size": 6189281,
+                    "tags": [
+                        {
+                            "artifact_id": 13,
+                            "id": 9,
+                            "immutable": false,
+                            "name": "latest",
+                            "pull_time": "0001-01-01 00:00:00+00:00",
+                            "push_time": "2021-01-03 14:47:38.216000+00:00",
+                            "repository_id": 8,
+                            "signed": false
+                        }
+                    ],
+                    "type": "IMAGE"
+                }
+            ],
+            "build_history": [
+                {
+                    "created": "2020-12-17T00:19:41.960367136Z",
+                    "created_by": "/bin/sh -c #(nop) ADD file:ec475c2abb2d46435286b5ae5efacf5b50b1a9e3b6293b69db3c0172b5b9658b in / "
+                },
+                {
+                    "created": "2020-12-17T00:19:42.11518025Z",
+                    "created_by": "/bin/sh -c #(nop)  CMD [\"/bin/sh\"]",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2021-01-03T14:43:26.5302838Z",
+                    "created_by": "WORKDIR /app"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2021-01-03T14:47:20.2304543Z",
+                    "created_by": "EXPOSE map[8080/tcp:{}]",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2021-01-03T14:47:20.2304543Z",
+                    "created_by": "ENTRYPOINT [\"/app/hello-world\"]",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2021-01-03T14:47:20.2304543Z",
+                    "created_by": "COPY /bin/hello-world /app # buildkit"
+                }
+            ],
+            "creation_time": "2021-01-03 14:46:45.933000+00:00",
+            "description": "# Quick reference\n\n**Maintained by**: [the Docker Community](https://github.com/docker-library/hello-world)\n**Where to get help**: [the Docker Community Forums](https://forums.docker.com/), [the Docker Community Slack](https://dockr.ly/slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)\n    \n\nSupported tags and respective `Dockerfile` links\n================================================\n\n(See [\"What's the difference between 'Shared' and 'Simple' tags?\" in the FAQ](https://github.com/docker-library/faq#whats-the-difference-between-shared-and-simple-tags).)\n\nSimple Tags\n-----------\n\n*   [`linux`](https://github.com/docker-library/hello-world/blob/7ecae6978055d2fb6960e2a29d24a2af612e2716/amd64/hello-world/Dockerfile)\n*   [`nanoserver-1809`](https://github.com/docker-library/hello-world/blob/9c93e37114a7fe99b5fc0d776e0b8dff99cbbb75/amd64/hello-world/nanoserver-1809/Dockerfile)\n\nShared Tags\n-----------\n\n*   `latest`:\n    *   [`linux`](https://github.com/docker-library/hello-world/blob/7ecae6978055d2fb6960e2a29d24a2af612e2716/amd64/hello-world/Dockerfile)\n    *   [`nanoserver-1809`](https://github.com/docker-library/hello-world/blob/9c93e37114a7fe99b5fc0d776e0b8dff99cbbb75/amd64/hello-world/nanoserver-1809/Dockerfile)\n*   `nanoserver`:\n    *   [`nanoserver-1809`](https://github.com/docker-library/hello-world/blob/9c93e37114a7fe99b5fc0d776e0b8dff99cbbb75/amd64/hello-world/nanoserver-1809/Dockerfile)\n\n## Quick reference (cont.)\n\n- **Where to file issues**: [https://github.com/docker-library/hello-world/issues](https://github.com/docker-library/hello-world/issues)\n- **Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64)) [`amd64`](https://hub.docker.com/r/amd64/hello-world/), [`arm32v5`](https://hub.docker.com/r/arm32v5/hello-world/), [`arm32v7`](https://hub.docker.com/r/arm32v7/hello-world/), [`arm64v8`](https://hub.docker.com/r/arm64v8/hello-world/), [`i386`](https://hub.docker.com/r/i386/hello-world/), [`mips64le`](https://hub.docker.com/r/mips64le/hello-world/), [`ppc64le`](https://hub.docker.com/r/ppc64le/hello-world/), [`s390x`](https://hub.docker.com/r/s390x/hello-world/), [`windows-amd64`](https://hub.docker.com/r/winamd64/hello-world/)\n-   **Published image artifact details**: [repo-info repo's `repos/hello-world/` directory](https://github.com/docker-library/repo-info/blob/master/repos/hello-world) ([history](https://github.com/docker-library/repo-info/commits/master/repos/hello-world)) (image metadata, transfer size, etc)\n- **Image updates**: [official-images repo's `library/hello-world` label](https://github.com/docker-library/official-images/issues?q=label%3Alibrary%2Fhello-world) [official-images repo's `library/hello-world` file](https://github.com/docker-library/official-images/blob/master/library/hello-world) ([history](https://github.com/docker-library/official-images/commits/master/library/hello-world))  \n- **Source of this description**: [docs repo's `hello-world/` directory](https://github.com/docker-library/docs/tree/master/hello-world) ([history](https://github.com/docker-library/docs/commits/master/hello-world))\n    \n\nExample output\n==============\n\n    $ docker run hello-world\n    \n    Hello from Docker!\n    This message shows that your installation appears to be working correctly.\n    \n    To generate this message, Docker took the following steps:\n     1. The Docker client contacted the Docker daemon.\n     2. The Docker daemon pulled the \"hello-world\" image from the Docker Hub.\n        (amd64)\n     3. The Docker daemon created a new container from that image which runs the\n        executable that produces the output you are currently reading.\n     4. The Docker daemon streamed that output to the Docker client, which sent it\n        to your terminal.\n    \n    To try something more ambitious, you can run an Ubuntu container with:\n     $ docker run -it ubuntu bash\n    \n    Share images, automate workflows, and more with a free Docker ID:\n     https://hub.docker.com/\n    \n    For more examples and ideas, visit:\n     https://docs.docker.com/get-started/\n    \n    \n    $ docker images hello-world\n    REPOSITORY   TAG     IMAGE ID      SIZE\n    hello-world  latest  bf756fb1ae65  13336\n\n![logo](https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/hello-world/logo.png)\n\nHow is this image created?\n==========================\n\nThis image is a prime example of using the [`scratch`](https://hub.docker.com/_/scratch/) image effectively. See [`hello.c`](https://github.com/docker-library/hello-world/blob/master/hello.c) in [https://github.com/docker-library/hello-world](https://github.com/docker-library/hello-world) for the source code of the `hello` binary included in this image.\n\nLicense\n=======\n\nView [license information](https://github.com/docker-library/hello-world/blob/master/LICENSE) for the software contained in this image.\n\nAs with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).\n\nSome additional license information which was able to be auto-detected might be found in [the `repo-info` repository's `hello-world/` directory](https://github.com/docker-library/repo-info/tree/master/repos/hello-world).\n\nAs for any pre-built image usage, it is the image user's responsibility to ensure that any use of this image complies with any relevant licenses for all software contained within.",
+            "id": 8,
+            "metadata": {},
+            "name": "examples/hello-world",
+            "project_id": 5,
+            "pull_count": 514,
+            "update_time": "2023-12-06 04:17:17.650000+00:00"
+        }
+    ],
+    "togglable": null,
+    "update_time": "2020-12-14 23:32:03.118000+00:00"
+}

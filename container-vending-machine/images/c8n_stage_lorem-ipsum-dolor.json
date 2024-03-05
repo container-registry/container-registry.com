@@ -1,0 +1,481 @@
+{
+    "chart_count": 1,
+    "creation_time": "2023-12-06 05:56:02.313000+00:00",
+    "current_user_role_id": 1,
+    "current_user_role_ids": [
+        1
+    ],
+    "cve_allowlist": {
+        "creation_time": "0001-01-01 00:00:00+00:00",
+        "expires_at": null,
+        "id": 2029,
+        "items": [],
+        "project_id": 2861,
+        "update_time": "0001-01-01 00:00:00+00:00"
+    },
+    "deleted": null,
+    "metadata": {
+        "auto_scan": null,
+        "enable_content_trust": null,
+        "enable_content_trust_cosign": null,
+        "instance": "c8n_stage",
+        "instanceUrl": "https://c8n-stage.container-registry.com",
+        "monthlyPrice": 1499,
+        "monthlyPriceId": "price_1OKI7lDmAMB1YDyjrK2aR7Pt",
+        "oneTimePrice": 1999,
+        "oneTimePriceId": "price_1OKHd3DmAMB1YDyj59h5ynpA",
+        "prevent_vul": null,
+        "public": "false",
+        "retention_id": null,
+        "reuse_sys_cve_allowlist": null,
+        "severity": null
+    },
+    "name": "lorem-ipsum-dolor",
+    "owner_id": 1,
+    "owner_name": "admin",
+    "project_id": 2861,
+    "registry_id": null,
+    "repo_count": 5,
+    "repositories": [
+        {
+            "artifact_count": 1,
+            "artifacts": [
+                {
+                    "accessories": null,
+                    "addition_links": {
+                        "build_history": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/lorem-ipsum-dolor/repositories/busybox/artifacts/sha256:1780cb47b7dfbcbf1e511be1cdb62722bd0ce208b996ea199689b56892e15af9/additions/build_history"
+                        },
+                        "vulnerabilities": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/lorem-ipsum-dolor/repositories/busybox/artifacts/sha256:1780cb47b7dfbcbf1e511be1cdb62722bd0ce208b996ea199689b56892e15af9/additions/vulnerabilities"
+                        }
+                    },
+                    "annotations": null,
+                    "digest": "sha256:1780cb47b7dfbcbf1e511be1cdb62722bd0ce208b996ea199689b56892e15af9",
+                    "extra_attrs": {
+                        "architecture": "amd64",
+                        "author": "",
+                        "config": {
+                            "Cmd": [
+                                "sh"
+                            ],
+                            "Env": [
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+                            ]
+                        },
+                        "created": "2023-12-05T20:23:00.863839077Z",
+                        "os": "linux"
+                    },
+                    "icon": "sha256:0048162a053eef4d4ce3fe7518615bef084403614f8bca43b40ae2e762e11e06",
+                    "id": 9,
+                    "labels": null,
+                    "manifest_media_type": "application/vnd.docker.distribution.manifest.v2+json",
+                    "media_type": "application/vnd.docker.container.image.v1+json",
+                    "project_id": 2861,
+                    "pull_time": "0001-01-01 00:00:00+00:00",
+                    "push_time": "2023-12-06 09:14:51.304000+00:00",
+                    "references": null,
+                    "repository_id": 9,
+                    "scan_overview": null,
+                    "size": 2221977,
+                    "tags": [
+                        {
+                            "artifact_id": 9,
+                            "id": 13,
+                            "immutable": false,
+                            "name": "latest",
+                            "pull_time": "0001-01-01 00:00:00+00:00",
+                            "push_time": "2023-12-06 09:15:33.358000+00:00",
+                            "repository_id": 9,
+                            "signed": false
+                        },
+                        {
+                            "artifact_id": 9,
+                            "id": 12,
+                            "immutable": false,
+                            "name": "1.36.1",
+                            "pull_time": "0001-01-01 00:00:00+00:00",
+                            "push_time": "2023-12-06 09:15:05.519000+00:00",
+                            "repository_id": 9,
+                            "signed": false
+                        },
+                        {
+                            "artifact_id": 9,
+                            "id": 11,
+                            "immutable": false,
+                            "name": "1.36",
+                            "pull_time": "0001-01-01 00:00:00+00:00",
+                            "push_time": "2023-12-06 09:14:51.748000+00:00",
+                            "repository_id": 9,
+                            "signed": false
+                        }
+                    ],
+                    "type": "IMAGE"
+                }
+            ],
+            "build_history": [
+                {
+                    "created": "2023-12-05T20:23:00.76922352Z",
+                    "created_by": "/bin/sh -c #(nop) ADD file:3e14759e7d5cfaf0f3ac6499d85dd2ceb521929cf523b51a767814c54f4b4994 in / "
+                },
+                {
+                    "created": "2023-12-05T20:23:00.863839077Z",
+                    "created_by": "/bin/sh -c #(nop)  CMD [\"sh\"]",
+                    "empty_layer": true
+                }
+            ],
+            "creation_time": "2023-12-06 09:14:50.417000+00:00",
+            "description": "<!--\n\n********************************************************************************\n\nWARNING:\n\n    DO NOT EDIT \"busybox/README.md\"\n\n    IT IS AUTO-GENERATED\n\n    (from the other files in \"busybox/\" combined with a set of templates)\n\n********************************************************************************\n\n-->\n\n# Quick reference\n\n-\t**Maintained by**:  \n\t[the Docker Community](https://github.com/docker-library/busybox)\n\n-\t**Where to get help**:  \n\t[the Docker Community Slack](https://dockr.ly/comm-slack), [Server Fault](https://serverfault.com/help/on-topic), [Unix & Linux](https://unix.stackexchange.com/help/on-topic), or [Stack Overflow](https://stackoverflow.com/help/on-topic)\n\n# Supported tags and respective `Dockerfile` links\n\n-\t[`1.36.1-glibc`, `1.36-glibc`, `1-glibc`, `stable-glibc`, `glibc`](https://github.com/docker-library/busybox/blob/fd3de9bdd2a72b59a99e7d1c125e5b3b5729326a/latest/glibc/Dockerfile)\n-\t[`1.36.1-uclibc`, `1.36-uclibc`, `1-uclibc`, `stable-uclibc`, `uclibc`](https://github.com/docker-library/busybox/blob/fd3de9bdd2a72b59a99e7d1c125e5b3b5729326a/latest/uclibc/Dockerfile)\n-\t[`1.36.1-musl`, `1.36-musl`, `1-musl`, `stable-musl`, `musl`](https://github.com/docker-library/busybox/blob/fd3de9bdd2a72b59a99e7d1c125e5b3b5729326a/latest/musl/Dockerfile)\n-\t[`1.36.1`, `1.36`, `1`, `stable`, `latest`](https://github.com/docker-library/busybox/blob/fd3de9bdd2a72b59a99e7d1c125e5b3b5729326a/latest/glibc/Dockerfile)\n-\t[`1.35.0-glibc`, `1.35-glibc`](https://github.com/docker-library/busybox/blob/fd3de9bdd2a72b59a99e7d1c125e5b3b5729326a/latest-1/glibc/Dockerfile)\n-\t[`1.35.0-uclibc`, `1.35-uclibc`](https://github.com/docker-library/busybox/blob/fd3de9bdd2a72b59a99e7d1c125e5b3b5729326a/latest-1/uclibc/Dockerfile)\n-\t[`1.35.0-musl`, `1.35-musl`](https://github.com/docker-library/busybox/blob/fd3de9bdd2a72b59a99e7d1c125e5b3b5729326a/latest-1/musl/Dockerfile)\n-\t[`1.35.0`, `1.35`](https://github.com/docker-library/busybox/blob/fd3de9bdd2a72b59a99e7d1c125e5b3b5729326a/latest-1/glibc/Dockerfile)\n\n# Quick reference (cont.)\n\n-\t**Where to file issues**:  \n\t[https://github.com/docker-library/busybox/issues](https://github.com/docker-library/busybox/issues?q=)\n\n-\t**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  \n\t[`amd64`](https://hub.docker.com/r/amd64/busybox/), [`arm32v5`](https://hub.docker.com/r/arm32v5/busybox/), [`arm32v6`](https://hub.docker.com/r/arm32v6/busybox/), [`arm32v7`](https://hub.docker.com/r/arm32v7/busybox/), [`arm64v8`](https://hub.docker.com/r/arm64v8/busybox/), [`i386`](https://hub.docker.com/r/i386/busybox/), [`mips64le`](https://hub.docker.com/r/mips64le/busybox/), [`ppc64le`](https://hub.docker.com/r/ppc64le/busybox/), [`riscv64`](https://hub.docker.com/r/riscv64/busybox/), [`s390x`](https://hub.docker.com/r/s390x/busybox/)\n\n-\t**Published image artifact details**:  \n\t[repo-info repo's `repos/busybox/` directory](https://github.com/docker-library/repo-info/blob/master/repos/busybox) ([history](https://github.com/docker-library/repo-info/commits/master/repos/busybox))  \n\t(image metadata, transfer size, etc)\n\n-\t**Image updates**:  \n\t[official-images repo's `library/busybox` label](https://github.com/docker-library/official-images/issues?q=label%3Alibrary%2Fbusybox)  \n\t[official-images repo's `library/busybox` file](https://github.com/docker-library/official-images/blob/master/library/busybox) ([history](https://github.com/docker-library/official-images/commits/master/library/busybox))\n\n-\t**Source of this description**:  \n\t[docs repo's `busybox/` directory](https://github.com/docker-library/docs/tree/master/busybox) ([history](https://github.com/docker-library/docs/commits/master/busybox))\n\n# What is BusyBox? The Swiss Army Knife of Embedded Linux\n\nComing in somewhere between 1 and 5 Mb in on-disk size (depending on the variant), [BusyBox](http://www.busybox.net/) is a very good ingredient to craft space-efficient distributions.\n\nBusyBox combines tiny versions of many common UNIX utilities into a single small executable. It provides replacements for most of the utilities you usually find in GNU fileutils, shellutils, etc. The utilities in BusyBox generally have fewer options than their full-featured GNU cousins; however, the options that are included provide the expected functionality and behave very much like their GNU counterparts. BusyBox provides a fairly complete environment for any small or embedded system.\n\n> [wikipedia.org/wiki/BusyBox](https://en.wikipedia.org/wiki/BusyBox)\n\n![logo](https://raw.githubusercontent.com/docker-library/docs/cc5d5e47fd7e0c57c9b8de4c1bfb6258e0dac85d/busybox/logo.png)\n\n# How to use this image\n\n## Run BusyBox shell\n\n```console\n$ docker run -it --rm busybox\n```\n\nThis will drop you into an `sh` shell to allow you to do what you want inside a BusyBox system.\n\n## Create a `Dockerfile` for a binary\n\n```dockerfile\nFROM busybox\nCOPY ./my-static-binary /my-static-binary\nCMD [\"/my-static-binary\"]\n```\n\nThis `Dockerfile` will allow you to create a minimal image for your statically compiled binary. You will have to compile the binary in some other place like another container. For a simpler alternative that's similarly tiny but easier to extend, [see `alpine`](https://hub.docker.com/_/alpine/).\n\n# Image Variants\n\nThe `busybox` images contain BusyBox built against various \"libc\" variants (for a comparison of \"libc\" variants, [Eta Labs has a very nice chart](http://www.etalabs.net/compare_libcs.html) which lists many similarities and differences).\n\nFor more information about the specific particulars of the build process for each variant, see `Dockerfile.builder` in the same directory as each variant's `Dockerfile` (see links above).\n\n## `busybox:glibc`\n\n-\t[glibc from Debian](https://packages.debian.org/search?searchon=names&exact=1&suite=all&section=all&keywords=libc6) (which is then included in the image)\n\n## `busybox:uclibc`\n\n-\t[uClibc](https://uclibc.org) via [Buildroot](https://buildroot.org) (statically compiled)\n\n## `busybox:musl`\n\n-\t[musl from Alpine](https://pkgs.alpinelinux.org/packages?name=musl) (statically compiled)\n\n# License\n\nView [license information](http://www.busybox.net/license.html) for the software contained in this image.\n\nAs with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).\n\nSome additional license information which was able to be auto-detected might be found in [the `repo-info` repository's `busybox/` directory](https://github.com/docker-library/repo-info/tree/master/repos/busybox).\n\nAs for any pre-built image usage, it is the image user's responsibility to ensure that any use of this image complies with any relevant licenses for all software contained within.\n",
+            "id": 9,
+            "metadata": {},
+            "name": "lorem-ipsum-dolor/busybox",
+            "project_id": 2861,
+            "pull_count": 0,
+            "update_time": "2023-12-06 09:16:04.619000+00:00"
+        },
+        {
+            "artifact_count": 1,
+            "artifacts": [
+                {
+                    "accessories": null,
+                    "addition_links": {
+                        "build_history": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/lorem-ipsum-dolor/repositories/nginx/artifacts/sha256:7dc1fb53813c6fd41931f53a41738b29949857e1a433d42d515ef6ed329650a8/additions/build_history"
+                        },
+                        "vulnerabilities": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/lorem-ipsum-dolor/repositories/nginx/artifacts/sha256:7dc1fb53813c6fd41931f53a41738b29949857e1a433d42d515ef6ed329650a8/additions/vulnerabilities"
+                        }
+                    },
+                    "annotations": null,
+                    "digest": "sha256:7dc1fb53813c6fd41931f53a41738b29949857e1a433d42d515ef6ed329650a8",
+                    "extra_attrs": {
+                        "architecture": "amd64",
+                        "author": "NGINX Docker Maintainers <docker-maint@nginx.com>",
+                        "config": {
+                            "Cmd": [
+                                "nginx",
+                                "-g",
+                                "daemon off;"
+                            ],
+                            "Entrypoint": [
+                                "/docker-entrypoint.sh"
+                            ],
+                            "Env": [
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                                "NGINX_VERSION=1.24.0",
+                                "PKG_RELEASE=1"
+                            ],
+                            "ExposedPorts": {
+                                "80/tcp": {}
+                            },
+                            "Labels": {
+                                "maintainer": "NGINX Docker Maintainers <docker-maint@nginx.com>"
+                            },
+                            "StopSignal": "SIGQUIT"
+                        },
+                        "created": "2023-12-01T07:02:29.220960844Z",
+                        "os": "linux"
+                    },
+                    "icon": "sha256:0048162a053eef4d4ce3fe7518615bef084403614f8bca43b40ae2e762e11e06",
+                    "id": 8,
+                    "labels": null,
+                    "manifest_media_type": "application/vnd.docker.distribution.manifest.v2+json",
+                    "media_type": "application/vnd.docker.container.image.v1+json",
+                    "project_id": 2861,
+                    "pull_time": "0001-01-01 00:00:00+00:00",
+                    "push_time": "2023-12-06 08:04:18.541000+00:00",
+                    "references": null,
+                    "repository_id": 8,
+                    "scan_overview": null,
+                    "size": 5191956,
+                    "tags": [
+                        {
+                            "artifact_id": 8,
+                            "id": 10,
+                            "immutable": false,
+                            "name": "stable-alpine3.17-slim",
+                            "pull_time": "0001-01-01 00:00:00+00:00",
+                            "push_time": "2023-12-06 08:04:19.016000+00:00",
+                            "repository_id": 8,
+                            "signed": false
+                        }
+                    ],
+                    "type": "IMAGE"
+                }
+            ],
+            "build_history": null,
+            "creation_time": "2023-12-06 08:04:17.699000+00:00",
+            "description": "<!--\n\n********************************************************************************\n\nWARNING:\n\n    DO NOT EDIT \"nginx/README.md\"\n\n    IT IS AUTO-GENERATED\n\n    (from the other files in \"nginx/\" combined with a set of templates)\n\n********************************************************************************\n\n-->\n\n# Quick reference\n\n-\t**Maintained by**:  \n\t[the NGINX Docker Maintainers](https://github.com/nginxinc/docker-nginx)\n\n-\t**Where to get help**:  \n\t[the Docker Community Slack](https://dockr.ly/comm-slack), [Server Fault](https://serverfault.com/help/on-topic), [Unix & Linux](https://unix.stackexchange.com/help/on-topic), or [Stack Overflow](https://stackoverflow.com/help/on-topic)\n\n# Supported tags and respective `Dockerfile` links\n\n-\t[`1.25.3`, `mainline`, `1`, `1.25`, `latest`, `1.25.3-bookworm`, `mainline-bookworm`, `1-bookworm`, `1.25-bookworm`, `bookworm`](https://github.com/nginxinc/docker-nginx/blob/4bf0763f4977fff7e9648add59e0540088f3ca9f/mainline/debian/Dockerfile)\n-\t[`1.25.3-perl`, `mainline-perl`, `1-perl`, `1.25-perl`, `perl`, `1.25.3-bookworm-perl`, `mainline-bookworm-perl`, `1-bookworm-perl`, `1.25-bookworm-perl`, `bookworm-perl`](https://github.com/nginxinc/docker-nginx/blob/4bf0763f4977fff7e9648add59e0540088f3ca9f/mainline/debian-perl/Dockerfile)\n-\t[`1.25.3-alpine`, `mainline-alpine`, `1-alpine`, `1.25-alpine`, `alpine`, `1.25.3-alpine3.18`, `mainline-alpine3.18`, `1-alpine3.18`, `1.25-alpine3.18`, `alpine3.18`](https://github.com/nginxinc/docker-nginx/blob/4bf0763f4977fff7e9648add59e0540088f3ca9f/mainline/alpine/Dockerfile)\n-\t[`1.25.3-alpine-perl`, `mainline-alpine-perl`, `1-alpine-perl`, `1.25-alpine-perl`, `alpine-perl`, `1.25.3-alpine3.18-perl`, `mainline-alpine3.18-perl`, `1-alpine3.18-perl`, `1.25-alpine3.18-perl`, `alpine3.18-perl`](https://github.com/nginxinc/docker-nginx/blob/4bf0763f4977fff7e9648add59e0540088f3ca9f/mainline/alpine-perl/Dockerfile)\n-\t[`1.25.3-alpine-slim`, `mainline-alpine-slim`, `1-alpine-slim`, `1.25-alpine-slim`, `alpine-slim`, `1.25.3-alpine3.18-slim`, `mainline-alpine3.18-slim`, `1-alpine3.18-slim`, `1.25-alpine3.18-slim`, `alpine3.18-slim`](https://github.com/nginxinc/docker-nginx/blob/4bf0763f4977fff7e9648add59e0540088f3ca9f/mainline/alpine-slim/Dockerfile)\n-\t[`1.24.0`, `stable`, `1.24`, `1.24.0-bullseye`, `stable-bullseye`, `1.24-bullseye`](https://github.com/nginxinc/docker-nginx/blob/1a8d87b69760693a8e33cd8a9e0c2e5f0e8b0e3c/stable/debian/Dockerfile)\n-\t[`1.24.0-perl`, `stable-perl`, `1.24-perl`, `1.24.0-bullseye-perl`, `stable-bullseye-perl`, `1.24-bullseye-perl`](https://github.com/nginxinc/docker-nginx/blob/1a8d87b69760693a8e33cd8a9e0c2e5f0e8b0e3c/stable/debian-perl/Dockerfile)\n-\t[`1.24.0-alpine`, `stable-alpine`, `1.24-alpine`, `1.24.0-alpine3.17`, `stable-alpine3.17`, `1.24-alpine3.17`](https://github.com/nginxinc/docker-nginx/blob/1a8d87b69760693a8e33cd8a9e0c2e5f0e8b0e3c/stable/alpine/Dockerfile)\n-\t[`1.24.0-alpine-perl`, `stable-alpine-perl`, `1.24-alpine-perl`, `1.24.0-alpine3.17-perl`, `stable-alpine3.17-perl`, `1.24-alpine3.17-perl`](https://github.com/nginxinc/docker-nginx/blob/1a8d87b69760693a8e33cd8a9e0c2e5f0e8b0e3c/stable/alpine-perl/Dockerfile)\n-\t[`1.24.0-alpine-slim`, `stable-alpine-slim`, `1.24-alpine-slim`, `1.24.0-alpine3.17-slim`, `stable-alpine3.17-slim`, `1.24-alpine3.17-slim`](https://github.com/nginxinc/docker-nginx/blob/1a8d87b69760693a8e33cd8a9e0c2e5f0e8b0e3c/stable/alpine-slim/Dockerfile)\n\n# Quick reference (cont.)\n\n-\t**Where to file issues**:  \n\t[https://github.com/nginxinc/docker-nginx/issues](https://github.com/nginxinc/docker-nginx/issues?q=)\n\n-\t**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  \n\t[`amd64`](https://hub.docker.com/r/amd64/nginx/), [`arm32v5`](https://hub.docker.com/r/arm32v5/nginx/), [`arm32v6`](https://hub.docker.com/r/arm32v6/nginx/), [`arm32v7`](https://hub.docker.com/r/arm32v7/nginx/), [`arm64v8`](https://hub.docker.com/r/arm64v8/nginx/), [`i386`](https://hub.docker.com/r/i386/nginx/), [`mips64le`](https://hub.docker.com/r/mips64le/nginx/), [`ppc64le`](https://hub.docker.com/r/ppc64le/nginx/), [`s390x`](https://hub.docker.com/r/s390x/nginx/)\n\n-\t**Published image artifact details**:  \n\t[repo-info repo's `repos/nginx/` directory](https://github.com/docker-library/repo-info/blob/master/repos/nginx) ([history](https://github.com/docker-library/repo-info/commits/master/repos/nginx))  \n\t(image metadata, transfer size, etc)\n\n-\t**Image updates**:  \n\t[official-images repo's `library/nginx` label](https://github.com/docker-library/official-images/issues?q=label%3Alibrary%2Fnginx)  \n\t[official-images repo's `library/nginx` file](https://github.com/docker-library/official-images/blob/master/library/nginx) ([history](https://github.com/docker-library/official-images/commits/master/library/nginx))\n\n-\t**Source of this description**:  \n\t[docs repo's `nginx/` directory](https://github.com/docker-library/docs/tree/master/nginx) ([history](https://github.com/docker-library/docs/commits/master/nginx))\n\n# What is nginx?\n\nNginx (pronounced \"engine-x\") is an open source reverse proxy server for HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer, HTTP cache, and a web server (origin server). The nginx project started with a strong focus on high concurrency, high performance and low memory usage. It is licensed under the 2-clause BSD-like license and it runs on Linux, BSD variants, Mac OS X, Solaris, AIX, HP-UX, as well as on other *nix flavors. It also has a proof of concept port for Microsoft Windows.\n\n> [wikipedia.org/wiki/Nginx](https://en.wikipedia.org/wiki/Nginx)\n\n![logo](https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/nginx/logo.png)\n\n# How to use this image\n\n## Hosting some simple static content\n\n```console\n$ docker run --name some-nginx -v /some/content:/usr/share/nginx/html:ro -d nginx\n```\n\nAlternatively, a simple `Dockerfile` can be used to generate a new image that includes the necessary content (which is a much cleaner solution than the bind mount above):\n\n```dockerfile\nFROM nginx\nCOPY static-html-directory /usr/share/nginx/html\n```\n\nPlace this file in the same directory as your directory of content (\"static-html-directory\"), run `docker build -t some-content-nginx .`, then start your container:\n\n```console\n$ docker run --name some-nginx -d some-content-nginx\n```\n\n## Exposing external port\n\n```console\n$ docker run --name some-nginx -d -p 8080:80 some-content-nginx\n```\n\nThen you can hit `http://localhost:8080` or `http://host-ip:8080` in your browser.\n\n## Customize configuration\n\nYou can mount your configuration file, or build a new image with it.\n\nIf you wish to adapt the default configuration, use something like the following to get it from a running nginx container:\n\n```console\n$ docker run --name tmp-nginx-container -d nginx\n$ docker cp tmp-nginx-container:/etc/nginx/nginx.conf /host/path/nginx.conf\n$ docker rm -f tmp-nginx-container\n```\n\nAnd then edit `/host/path/nginx.conf` in your host file system.\n\nFor information on the syntax of the nginx configuration files, see [the official documentation](http://nginx.org/en/docs/) (specifically the [Beginner's Guide](http://nginx.org/en/docs/beginners_guide.html#conf_structure)).\n\n### Mount your configuration file\n\n```console\n$ docker run --name my-custom-nginx-container -v /host/path/nginx.conf:/etc/nginx/nginx.conf:ro -d nginx\n```\n\n### Build a new image with your configuration file\n\n```dockerfile\nFROM nginx\nCOPY nginx.conf /etc/nginx/nginx.conf\n```\n\nIf you add a custom `CMD` in the Dockerfile, be sure to include `-g daemon off;` in the `CMD` in order for nginx to stay in the foreground, so that Docker can track the process properly (otherwise your container will stop immediately after starting)!\n\nThen build the image with `docker build -t custom-nginx .` and run it as follows:\n\n```console\n$ docker run --name my-custom-nginx-container -d custom-nginx\n```\n\n### Using environment variables in nginx configuration (new in 1.19)\n\nOut-of-the-box, nginx doesn't support environment variables inside most configuration blocks. But this image has a function, which will extract environment variables before nginx starts.\n\nHere is an example using docker-compose.yml:\n\n```yaml\nweb:\n  image: nginx\n  volumes:\n   - ./templates:/etc/nginx/templates\n  ports:\n   - \"8080:80\"\n  environment:\n   - NGINX_HOST=foobar.com\n   - NGINX_PORT=80\n```\n\nBy default, this function reads template files in `/etc/nginx/templates/*.template` and outputs the result of executing `envsubst` to `/etc/nginx/conf.d`.\n\nSo if you place `templates/default.conf.template` file, which contains variable references like this:\n\n\tlisten       ${NGINX_PORT};\n\noutputs to `/etc/nginx/conf.d/default.conf` like this:\n\n\tlisten       80;\n\nThis behavior can be changed via the following environment variables:\n\n-\t`NGINX_ENVSUBST_TEMPLATE_DIR`\n\t-\tA directory which contains template files (default: `/etc/nginx/templates`)\n\t-\tWhen this directory doesn't exist, this function will do nothing about template processing.\n-\t`NGINX_ENVSUBST_TEMPLATE_SUFFIX`\n\t-\tA suffix of template files (default: `.template`)\n\t-\tThis function only processes the files whose name ends with this suffix.\n-\t`NGINX_ENVSUBST_OUTPUT_DIR`\n\t-\tA directory where the result of executing envsubst is output (default: `/etc/nginx/conf.d`)\n\t-\tThe output filename is the template filename with the suffix removed.\n\t\t-\tex.) `/etc/nginx/templates/default.conf.template` will be output with the filename `/etc/nginx/conf.d/default.conf`.\n\t-\tThis directory must be writable by the user running a container.\n\n## Running nginx in read-only mode\n\nTo run nginx in read-only mode, you will need to mount a Docker volume to every location where nginx writes information. The default nginx configuration requires write access to `/var/cache/nginx` and `/var/run`. This can be easily accomplished by running nginx as follows:\n\n```console\n$ docker run -d -p 80:80 --read-only -v $(pwd)/nginx-cache:/var/cache/nginx -v $(pwd)/nginx-pid:/var/run nginx\n```\n\nIf you have a more advanced configuration that requires nginx to write to other locations, simply add more volume mounts to those locations.\n\n## Running nginx in debug mode\n\nImages since version 1.9.8 come with `nginx-debug` binary that produces verbose output when using higher log levels. It can be used with simple CMD substitution:\n\n```console\n$ docker run --name my-nginx -v /host/path/nginx.conf:/etc/nginx/nginx.conf:ro -d nginx nginx-debug -g 'daemon off;'\n```\n\nSimilar configuration in docker-compose.yml may look like this:\n\n```yaml\nweb:\n  image: nginx\n  volumes:\n    - ./nginx.conf:/etc/nginx/nginx.conf:ro\n  command: [nginx-debug, '-g', 'daemon off;']\n```\n\n## Entrypoint quiet logs\n\nSince version 1.19.0, a verbose entrypoint was added. It provides information on what's happening during container startup. You can silence this output by setting environment variable `NGINX_ENTRYPOINT_QUIET_LOGS`:\n\n```console\n$ docker run -d -e NGINX_ENTRYPOINT_QUIET_LOGS=1 nginx\n```\n\n## User and group id\n\nSince 1.17.0, both alpine- and debian-based images variants use the same user and group ids to drop the privileges for worker processes:\n\n```console\n$ id\nuid=101(nginx) gid=101(nginx) groups=101(nginx)\n```\n\n## Running nginx as a non-root user\n\nIt is possible to run the image as a less privileged arbitrary UID/GID. This, however, requires modification of nginx configuration to use directories writeable by that specific UID/GID pair:\n\n```console\n$ docker run -d -v $PWD/nginx.conf:/etc/nginx/nginx.conf nginx\n```\n\nwhere nginx.conf in the current directory should have the following directives re-defined:\n\n```nginx\npid        /tmp/nginx.pid;\n```\n\nAnd in the http context:\n\n```nginx\nhttp {\n    client_body_temp_path /tmp/client_temp;\n    proxy_temp_path       /tmp/proxy_temp_path;\n    fastcgi_temp_path     /tmp/fastcgi_temp;\n    uwsgi_temp_path       /tmp/uwsgi_temp;\n    scgi_temp_path        /tmp/scgi_temp;\n...\n}\n```\n\nAlternatively, check out the official [Docker NGINX unprivileged image](https://hub.docker.com/r/nginxinc/nginx-unprivileged).\n\n# Image Variants\n\nThe `nginx` images come in many flavors, each designed for a specific use case.\n\n## `nginx:<version>`\n\nThis is the defacto image. If you are unsure about what your needs are, you probably want to use this one. It is designed to be used both as a throw away container (mount your source code and start the container to start your app), as well as the base to build other images off of.\n\nSome of these tags may have names like bookworm or bullseye in them. These are the suite code names for releases of [Debian](https://wiki.debian.org/DebianReleases) and indicate which release the image is based on. If your image needs to install any additional packages beyond what comes with the image, you'll likely want to specify one of these explicitly to minimize breakage when there are new releases of Debian.\n\n## `nginx:<version>-perl` / `nginx:<version>-alpine-perl`\n\nStarting with nginx:1.13.0 / mainline and nginx:1.12.0 / stable, the perl module has been removed from the default images. A separate `-perl` tag variant is available if you wish to use the perl module.\n\n## `nginx:<version>-alpine`\n\nThis image is based on the popular [Alpine Linux project](https://alpinelinux.org), available in [the `alpine` official image](https://hub.docker.com/_/alpine). Alpine Linux is much smaller than most distribution base images (~5MB), and thus leads to much slimmer images in general.\n\nThis variant is useful when final image size being as small as possible is your primary concern. The main caveat to note is that it does use [musl libc](https://musl.libc.org) instead of [glibc and friends](https://www.etalabs.net/compare_libcs.html), so software will often run into issues depending on the depth of their libc requirements/assumptions. See [this Hacker News comment thread](https://news.ycombinator.com/item?id=10782897) for more discussion of the issues that might arise and some pro/con comparisons of using Alpine-based images.\n\nTo minimize image size, it's uncommon for additional related tools (such as `git` or `bash`) to be included in Alpine-based images. Using this image as a base, add the things you need in your own Dockerfile (see the [`alpine` image description](https://hub.docker.com/_/alpine/) for examples of how to install packages if you are unfamiliar).\n\n## `nginx:<version>-slim`\n\nThis image does not contain the common packages contained in the default tag and only contains the minimal packages needed to run `nginx`. Unless you are working in an environment where *only* the `nginx` image will be deployed and you have space constraints, we highly recommend using the default image of this repository.\n\n# License\n\nView [license information](http://nginx.org/LICENSE) for the software contained in this image.\n\nAs with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).\n\nSome additional license information which was able to be auto-detected might be found in [the `repo-info` repository's `nginx/` directory](https://github.com/docker-library/repo-info/tree/master/repos/nginx).\n\nAs for any pre-built image usage, it is the image user's responsibility to ensure that any use of this image complies with any relevant licenses for all software contained within.\n",
+            "id": 8,
+            "metadata": {},
+            "name": "lorem-ipsum-dolor/nginx",
+            "project_id": 2861,
+            "pull_count": 0,
+            "update_time": "2023-12-06 09:15:30.771000+00:00"
+        },
+        {
+            "artifact_count": 1,
+            "artifacts": [
+                {
+                    "accessories": null,
+                    "addition_links": {
+                        "build_history": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/lorem-ipsum-dolor/repositories/python/artifacts/sha256:9a5af4ca0c7678180db9bab26506d0f8959e5a6c32cc5349b7bdcd712790c0f3/additions/build_history"
+                        },
+                        "vulnerabilities": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/lorem-ipsum-dolor/repositories/python/artifacts/sha256:9a5af4ca0c7678180db9bab26506d0f8959e5a6c32cc5349b7bdcd712790c0f3/additions/vulnerabilities"
+                        }
+                    },
+                    "annotations": null,
+                    "digest": "sha256:9a5af4ca0c7678180db9bab26506d0f8959e5a6c32cc5349b7bdcd712790c0f3",
+                    "extra_attrs": {
+                        "architecture": "amd64",
+                        "author": "",
+                        "config": {
+                            "Cmd": [
+                                "python3"
+                            ],
+                            "Env": [
+                                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                                "LANG=C.UTF-8",
+                                "GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D",
+                                "PYTHON_VERSION=3.10.13",
+                                "PYTHON_PIP_VERSION=23.0.1",
+                                "PYTHON_SETUPTOOLS_VERSION=65.5.1",
+                                "PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/c6add47b0abf67511cdfb4734771cbab403af062/public/get-pip.py",
+                                "PYTHON_GET_PIP_SHA256=22b849a10f86f5ddf7ce148ca2a31214504ee6c83ef626840fde6e5dcd809d11"
+                            ]
+                        },
+                        "created": "2023-10-15T21:49:12Z",
+                        "os": "linux"
+                    },
+                    "icon": "sha256:0048162a053eef4d4ce3fe7518615bef084403614f8bca43b40ae2e762e11e06",
+                    "id": 7,
+                    "labels": null,
+                    "manifest_media_type": "application/vnd.docker.distribution.manifest.v2+json",
+                    "media_type": "application/vnd.docker.container.image.v1+json",
+                    "project_id": 2861,
+                    "pull_time": "0001-01-01 00:00:00+00:00",
+                    "push_time": "2023-12-06 06:04:13.571000+00:00",
+                    "references": null,
+                    "repository_id": 7,
+                    "scan_overview": null,
+                    "size": 48414101,
+                    "tags": [
+                        {
+                            "artifact_id": 7,
+                            "id": 9,
+                            "immutable": false,
+                            "name": "3.10-slim",
+                            "pull_time": "0001-01-01 00:00:00+00:00",
+                            "push_time": "2023-12-06 06:04:13.961000+00:00",
+                            "repository_id": 7,
+                            "signed": false
+                        }
+                    ],
+                    "type": "IMAGE"
+                }
+            ],
+            "build_history": null,
+            "creation_time": "2023-12-06 06:04:12.680000+00:00",
+            "description": "<!--\n\n********************************************************************************\n\nWARNING:\n\n    DO NOT EDIT \"python/README.md\"\n\n    IT IS AUTO-GENERATED\n\n    (from the other files in \"python/\" combined with a set of templates)\n\n********************************************************************************\n\n-->\n\n# Quick reference\n\n-\t**Maintained by**:  \n\t[the Docker Community](https://github.com/docker-library/python)\n\n-\t**Where to get help**:  \n\t[the Docker Community Slack](https://dockr.ly/comm-slack), [Server Fault](https://serverfault.com/help/on-topic), [Unix & Linux](https://unix.stackexchange.com/help/on-topic), or [Stack Overflow](https://stackoverflow.com/help/on-topic)\n\n# Supported tags and respective `Dockerfile` links\n\n(See [\"What's the difference between 'Shared' and 'Simple' tags?\" in the FAQ](https://github.com/docker-library/faq#whats-the-difference-between-shared-and-simple-tags).)\n\n## Simple Tags\n\n-\t[`3.13.0a2-bookworm`, `3.13-rc-bookworm`](https://github.com/docker-library/python/blob/31716e66d5a755d24929d126c6d60b3a7e3b8db3/3.13-rc/bookworm/Dockerfile)\n-\t[`3.13.0a2-slim-bookworm`, `3.13-rc-slim-bookworm`, `3.13.0a2-slim`, `3.13-rc-slim`](https://github.com/docker-library/python/blob/31716e66d5a755d24929d126c6d60b3a7e3b8db3/3.13-rc/slim-bookworm/Dockerfile)\n-\t[`3.13.0a2-bullseye`, `3.13-rc-bullseye`](https://github.com/docker-library/python/blob/31716e66d5a755d24929d126c6d60b3a7e3b8db3/3.13-rc/bullseye/Dockerfile)\n-\t[`3.13.0a2-slim-bullseye`, `3.13-rc-slim-bullseye`](https://github.com/docker-library/python/blob/31716e66d5a755d24929d126c6d60b3a7e3b8db3/3.13-rc/slim-bullseye/Dockerfile)\n-\t[`3.13.0a2-alpine3.18`, `3.13-rc-alpine3.18`, `3.13.0a2-alpine`, `3.13-rc-alpine`](https://github.com/docker-library/python/blob/31716e66d5a755d24929d126c6d60b3a7e3b8db3/3.13-rc/alpine3.18/Dockerfile)\n-\t[`3.13.0a2-alpine3.17`, `3.13-rc-alpine3.17`](https://github.com/docker-library/python/blob/31716e66d5a755d24929d126c6d60b3a7e3b8db3/3.13-rc/alpine3.17/Dockerfile)\n-\t[`3.13.0a2-windowsservercore-ltsc2022`, `3.13-rc-windowsservercore-ltsc2022`](https://github.com/docker-library/python/blob/31716e66d5a755d24929d126c6d60b3a7e3b8db3/3.13-rc/windows/windowsservercore-ltsc2022/Dockerfile)\n-\t[`3.13.0a2-windowsservercore-1809`, `3.13-rc-windowsservercore-1809`](https://github.com/docker-library/python/blob/31716e66d5a755d24929d126c6d60b3a7e3b8db3/3.13-rc/windows/windowsservercore-1809/Dockerfile)\n-\t[`3.12.0-bookworm`, `3.12-bookworm`, `3-bookworm`, `bookworm`](https://github.com/docker-library/python/blob/750aa9f30cd280f7fc79231708a387bb26e5a10f/3.12/bookworm/Dockerfile)\n-\t[`3.12.0-slim-bookworm`, `3.12-slim-bookworm`, `3-slim-bookworm`, `slim-bookworm`, `3.12.0-slim`, `3.12-slim`, `3-slim`, `slim`](https://github.com/docker-library/python/blob/750aa9f30cd280f7fc79231708a387bb26e5a10f/3.12/slim-bookworm/Dockerfile)\n-\t[`3.12.0-bullseye`, `3.12-bullseye`, `3-bullseye`, `bullseye`](https://github.com/docker-library/python/blob/750aa9f30cd280f7fc79231708a387bb26e5a10f/3.12/bullseye/Dockerfile)\n-\t[`3.12.0-slim-bullseye`, `3.12-slim-bullseye`, `3-slim-bullseye`, `slim-bullseye`](https://github.com/docker-library/python/blob/750aa9f30cd280f7fc79231708a387bb26e5a10f/3.12/slim-bullseye/Dockerfile)\n-\t[`3.12.0-alpine3.18`, `3.12-alpine3.18`, `3-alpine3.18`, `alpine3.18`, `3.12.0-alpine`, `3.12-alpine`, `3-alpine`, `alpine`](https://github.com/docker-library/python/blob/750aa9f30cd280f7fc79231708a387bb26e5a10f/3.12/alpine3.18/Dockerfile)\n-\t[`3.12.0-alpine3.17`, `3.12-alpine3.17`, `3-alpine3.17`, `alpine3.17`](https://github.com/docker-library/python/blob/750aa9f30cd280f7fc79231708a387bb26e5a10f/3.12/alpine3.17/Dockerfile)\n-\t[`3.12.0-windowsservercore-ltsc2022`, `3.12-windowsservercore-ltsc2022`, `3-windowsservercore-ltsc2022`, `windowsservercore-ltsc2022`](https://github.com/docker-library/python/blob/750aa9f30cd280f7fc79231708a387bb26e5a10f/3.12/windows/windowsservercore-ltsc2022/Dockerfile)\n-\t[`3.12.0-windowsservercore-1809`, `3.12-windowsservercore-1809`, `3-windowsservercore-1809`, `windowsservercore-1809`](https://github.com/docker-library/python/blob/750aa9f30cd280f7fc79231708a387bb26e5a10f/3.12/windows/windowsservercore-1809/Dockerfile)\n-\t[`3.11.7-bookworm`, `3.11-bookworm`](https://github.com/docker-library/python/blob/8bc80d1109001365559eded16423ba3692eff1ff/3.11/bookworm/Dockerfile)\n-\t[`3.11.7-slim-bookworm`, `3.11-slim-bookworm`, `3.11.7-slim`, `3.11-slim`](https://github.com/docker-library/python/blob/8bc80d1109001365559eded16423ba3692eff1ff/3.11/slim-bookworm/Dockerfile)\n-\t[`3.11.7-bullseye`, `3.11-bullseye`](https://github.com/docker-library/python/blob/8bc80d1109001365559eded16423ba3692eff1ff/3.11/bullseye/Dockerfile)\n-\t[`3.11.7-slim-bullseye`, `3.11-slim-bullseye`](https://github.com/docker-library/python/blob/8bc80d1109001365559eded16423ba3692eff1ff/3.11/slim-bullseye/Dockerfile)\n-\t[`3.11.7-alpine3.18`, `3.11-alpine3.18`, `3.11.7-alpine`, `3.11-alpine`](https://github.com/docker-library/python/blob/8bc80d1109001365559eded16423ba3692eff1ff/3.11/alpine3.18/Dockerfile)\n-\t[`3.11.7-alpine3.17`, `3.11-alpine3.17`](https://github.com/docker-library/python/blob/8bc80d1109001365559eded16423ba3692eff1ff/3.11/alpine3.17/Dockerfile)\n-\t[`3.11.7-windowsservercore-ltsc2022`, `3.11-windowsservercore-ltsc2022`](https://github.com/docker-library/python/blob/8bc80d1109001365559eded16423ba3692eff1ff/3.11/windows/windowsservercore-ltsc2022/Dockerfile)\n-\t[`3.11.7-windowsservercore-1809`, `3.11-windowsservercore-1809`](https://github.com/docker-library/python/blob/8bc80d1109001365559eded16423ba3692eff1ff/3.11/windows/windowsservercore-1809/Dockerfile)\n-\t[`3.10.13-bookworm`, `3.10-bookworm`](https://github.com/docker-library/python/blob/936a2ed61e9930bfec0de767e78877e29d288322/3.10/bookworm/Dockerfile)\n-\t[`3.10.13-slim-bookworm`, `3.10-slim-bookworm`, `3.10.13-slim`, `3.10-slim`](https://github.com/docker-library/python/blob/936a2ed61e9930bfec0de767e78877e29d288322/3.10/slim-bookworm/Dockerfile)\n-\t[`3.10.13-bullseye`, `3.10-bullseye`](https://github.com/docker-library/python/blob/936a2ed61e9930bfec0de767e78877e29d288322/3.10/bullseye/Dockerfile)\n-\t[`3.10.13-slim-bullseye`, `3.10-slim-bullseye`](https://github.com/docker-library/python/blob/936a2ed61e9930bfec0de767e78877e29d288322/3.10/slim-bullseye/Dockerfile)\n-\t[`3.10.13-alpine3.18`, `3.10-alpine3.18`, `3.10.13-alpine`, `3.10-alpine`](https://github.com/docker-library/python/blob/936a2ed61e9930bfec0de767e78877e29d288322/3.10/alpine3.18/Dockerfile)\n-\t[`3.10.13-alpine3.17`, `3.10-alpine3.17`](https://github.com/docker-library/python/blob/936a2ed61e9930bfec0de767e78877e29d288322/3.10/alpine3.17/Dockerfile)\n-\t[`3.9.18-bookworm`, `3.9-bookworm`](https://github.com/docker-library/python/blob/2d31ccc9f8487908ded7944a54b8e923eff9ad1f/3.9/bookworm/Dockerfile)\n-\t[`3.9.18-slim-bookworm`, `3.9-slim-bookworm`, `3.9.18-slim`, `3.9-slim`](https://github.com/docker-library/python/blob/2d31ccc9f8487908ded7944a54b8e923eff9ad1f/3.9/slim-bookworm/Dockerfile)\n-\t[`3.9.18-bullseye`, `3.9-bullseye`](https://github.com/docker-library/python/blob/2d31ccc9f8487908ded7944a54b8e923eff9ad1f/3.9/bullseye/Dockerfile)\n-\t[`3.9.18-slim-bullseye`, `3.9-slim-bullseye`](https://github.com/docker-library/python/blob/2d31ccc9f8487908ded7944a54b8e923eff9ad1f/3.9/slim-bullseye/Dockerfile)\n-\t[`3.9.18-alpine3.18`, `3.9-alpine3.18`, `3.9.18-alpine`, `3.9-alpine`](https://github.com/docker-library/python/blob/2d31ccc9f8487908ded7944a54b8e923eff9ad1f/3.9/alpine3.18/Dockerfile)\n-\t[`3.9.18-alpine3.17`, `3.9-alpine3.17`](https://github.com/docker-library/python/blob/2d31ccc9f8487908ded7944a54b8e923eff9ad1f/3.9/alpine3.17/Dockerfile)\n-\t[`3.8.18-bookworm`, `3.8-bookworm`](https://github.com/docker-library/python/blob/5323d4a926e4f3e71fce8bb1c71daa227bd52ac7/3.8/bookworm/Dockerfile)\n-\t[`3.8.18-slim-bookworm`, `3.8-slim-bookworm`, `3.8.18-slim`, `3.8-slim`](https://github.com/docker-library/python/blob/5323d4a926e4f3e71fce8bb1c71daa227bd52ac7/3.8/slim-bookworm/Dockerfile)\n-\t[`3.8.18-bullseye`, `3.8-bullseye`](https://github.com/docker-library/python/blob/5323d4a926e4f3e71fce8bb1c71daa227bd52ac7/3.8/bullseye/Dockerfile)\n-\t[`3.8.18-slim-bullseye`, `3.8-slim-bullseye`](https://github.com/docker-library/python/blob/5323d4a926e4f3e71fce8bb1c71daa227bd52ac7/3.8/slim-bullseye/Dockerfile)\n-\t[`3.8.18-alpine3.18`, `3.8-alpine3.18`, `3.8.18-alpine`, `3.8-alpine`](https://github.com/docker-library/python/blob/5323d4a926e4f3e71fce8bb1c71daa227bd52ac7/3.8/alpine3.18/Dockerfile)\n-\t[`3.8.18-alpine3.17`, `3.8-alpine3.17`](https://github.com/docker-library/python/blob/5323d4a926e4f3e71fce8bb1c71daa227bd52ac7/3.8/alpine3.17/Dockerfile)\n\n## Shared Tags\n\n-\t`3.13.0a2`, `3.13-rc`:\n\t-\t[`3.13.0a2-bookworm`](https://github.com/docker-library/python/blob/31716e66d5a755d24929d126c6d60b3a7e3b8db3/3.13-rc/bookworm/Dockerfile)\n\t-\t[`3.13.0a2-windowsservercore-ltsc2022`](https://github.com/docker-library/python/blob/31716e66d5a755d24929d126c6d60b3a7e3b8db3/3.13-rc/windows/windowsservercore-ltsc2022/Dockerfile)\n\t-\t[`3.13.0a2-windowsservercore-1809`](https://github.com/docker-library/python/blob/31716e66d5a755d24929d126c6d60b3a7e3b8db3/3.13-rc/windows/windowsservercore-1809/Dockerfile)\n-\t`3.13.0a2-windowsservercore`, `3.13-rc-windowsservercore`:\n\t-\t[`3.13.0a2-windowsservercore-ltsc2022`](https://github.com/docker-library/python/blob/31716e66d5a755d24929d126c6d60b3a7e3b8db3/3.13-rc/windows/windowsservercore-ltsc2022/Dockerfile)\n\t-\t[`3.13.0a2-windowsservercore-1809`](https://github.com/docker-library/python/blob/31716e66d5a755d24929d126c6d60b3a7e3b8db3/3.13-rc/windows/windowsservercore-1809/Dockerfile)\n-\t`3.12.0`, `3.12`, `3`, `latest`:\n\t-\t[`3.12.0-bookworm`](https://github.com/docker-library/python/blob/750aa9f30cd280f7fc79231708a387bb26e5a10f/3.12/bookworm/Dockerfile)\n\t-\t[`3.12.0-windowsservercore-ltsc2022`](https://github.com/docker-library/python/blob/750aa9f30cd280f7fc79231708a387bb26e5a10f/3.12/windows/windowsservercore-ltsc2022/Dockerfile)\n\t-\t[`3.12.0-windowsservercore-1809`](https://github.com/docker-library/python/blob/750aa9f30cd280f7fc79231708a387bb26e5a10f/3.12/windows/windowsservercore-1809/Dockerfile)\n-\t`3.12.0-windowsservercore`, `3.12-windowsservercore`, `3-windowsservercore`, `windowsservercore`:\n\t-\t[`3.12.0-windowsservercore-ltsc2022`](https://github.com/docker-library/python/blob/750aa9f30cd280f7fc79231708a387bb26e5a10f/3.12/windows/windowsservercore-ltsc2022/Dockerfile)\n\t-\t[`3.12.0-windowsservercore-1809`](https://github.com/docker-library/python/blob/750aa9f30cd280f7fc79231708a387bb26e5a10f/3.12/windows/windowsservercore-1809/Dockerfile)\n-\t`3.11.7`, `3.11`:\n\t-\t[`3.11.7-bookworm`](https://github.com/docker-library/python/blob/8bc80d1109001365559eded16423ba3692eff1ff/3.11/bookworm/Dockerfile)\n\t-\t[`3.11.7-windowsservercore-ltsc2022`](https://github.com/docker-library/python/blob/8bc80d1109001365559eded16423ba3692eff1ff/3.11/windows/windowsservercore-ltsc2022/Dockerfile)\n\t-\t[`3.11.7-windowsservercore-1809`](https://github.com/docker-library/python/blob/8bc80d1109001365559eded16423ba3692eff1ff/3.11/windows/windowsservercore-1809/Dockerfile)\n-\t`3.11.7-windowsservercore`, `3.11-windowsservercore`:\n\t-\t[`3.11.7-windowsservercore-ltsc2022`](https://github.com/docker-library/python/blob/8bc80d1109001365559eded16423ba3692eff1ff/3.11/windows/windowsservercore-ltsc2022/Dockerfile)\n\t-\t[`3.11.7-windowsservercore-1809`](https://github.com/docker-library/python/blob/8bc80d1109001365559eded16423ba3692eff1ff/3.11/windows/windowsservercore-1809/Dockerfile)\n-\t`3.10.13`, `3.10`:\n\t-\t[`3.10.13-bookworm`](https://github.com/docker-library/python/blob/936a2ed61e9930bfec0de767e78877e29d288322/3.10/bookworm/Dockerfile)\n-\t`3.9.18`, `3.9`:\n\t-\t[`3.9.18-bookworm`](https://github.com/docker-library/python/blob/2d31ccc9f8487908ded7944a54b8e923eff9ad1f/3.9/bookworm/Dockerfile)\n-\t`3.8.18`, `3.8`:\n\t-\t[`3.8.18-bookworm`](https://github.com/docker-library/python/blob/5323d4a926e4f3e71fce8bb1c71daa227bd52ac7/3.8/bookworm/Dockerfile)\n\n# Quick reference (cont.)\n\n-\t**Where to file issues**:  \n\t[https://github.com/docker-library/python/issues](https://github.com/docker-library/python/issues?q=)\n\n-\t**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  \n\t[`amd64`](https://hub.docker.com/r/amd64/python/), [`arm32v5`](https://hub.docker.com/r/arm32v5/python/), [`arm32v6`](https://hub.docker.com/r/arm32v6/python/), [`arm32v7`](https://hub.docker.com/r/arm32v7/python/), [`arm64v8`](https://hub.docker.com/r/arm64v8/python/), [`i386`](https://hub.docker.com/r/i386/python/), [`mips64le`](https://hub.docker.com/r/mips64le/python/), [`ppc64le`](https://hub.docker.com/r/ppc64le/python/), [`s390x`](https://hub.docker.com/r/s390x/python/), [`windows-amd64`](https://hub.docker.com/r/winamd64/python/)\n\n-\t**Published image artifact details**:  \n\t[repo-info repo's `repos/python/` directory](https://github.com/docker-library/repo-info/blob/master/repos/python) ([history](https://github.com/docker-library/repo-info/commits/master/repos/python))  \n\t(image metadata, transfer size, etc)\n\n-\t**Image updates**:  \n\t[official-images repo's `library/python` label](https://github.com/docker-library/official-images/issues?q=label%3Alibrary%2Fpython)  \n\t[official-images repo's `library/python` file](https://github.com/docker-library/official-images/blob/master/library/python) ([history](https://github.com/docker-library/official-images/commits/master/library/python))\n\n-\t**Source of this description**:  \n\t[docs repo's `python/` directory](https://github.com/docker-library/docs/tree/master/python) ([history](https://github.com/docker-library/docs/commits/master/python))\n\n# What is Python?\n\nPython is an interpreted, interactive, object-oriented, open-source programming language. It incorporates modules, exceptions, dynamic typing, very high level dynamic data types, and classes. Python combines remarkable power with very clear syntax. It has interfaces to many system calls and libraries, as well as to various window systems, and is extensible in C or C++. It is also usable as an extension language for applications that need a programmable interface. Finally, Python is portable: it runs on many Unix variants, on the Mac, and on Windows 2000 and later.\n\n> [wikipedia.org/wiki/Python_(programming_language)](https://en.wikipedia.org/wiki/Python_%28programming_language%29)\n\n![logo](https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/python/logo.png)\n\n# How to use this image\n\n## Create a `Dockerfile` in your Python app project\n\n```dockerfile\nFROM python:3\n\nWORKDIR /usr/src/app\n\nCOPY requirements.txt ./\nRUN pip install --no-cache-dir -r requirements.txt\n\nCOPY . .\n\nCMD [ \"python\", \"./your-daemon-or-script.py\" ]\n```\n\nor (if you need to use Python 2):\n\n```dockerfile\nFROM python:2\n\nWORKDIR /usr/src/app\n\nCOPY requirements.txt ./\nRUN pip install --no-cache-dir -r requirements.txt\n\nCOPY . .\n\nCMD [ \"python\", \"./your-daemon-or-script.py\" ]\n```\n\nYou can then build and run the Docker image:\n\n```console\n$ docker build -t my-python-app .\n$ docker run -it --rm --name my-running-app my-python-app\n```\n\n## Run a single Python script\n\nFor many simple, single file projects, you may find it inconvenient to write a complete `Dockerfile`. In such cases, you can run a Python script by using the Python Docker image directly:\n\n```console\n$ docker run -it --rm --name my-running-script -v \"$PWD\":/usr/src/myapp -w /usr/src/myapp python:3 python your-daemon-or-script.py\n```\n\nor (again, if you need to use Python 2):\n\n```console\n$ docker run -it --rm --name my-running-script -v \"$PWD\":/usr/src/myapp -w /usr/src/myapp python:2 python your-daemon-or-script.py\n```\n\n## Multiple Python versions in the image\n\nIn the non-slim variants there will be an additional (distro-provided) `python` executable at `/usr/bin/python` (and/or `/usr/bin/python3`) while the desired image-provided `/usr/local/bin/python` is the default choice in the `$PATH`. This is an unfortunate side-effect of using the `buildpack-deps` image in the non-slim variants (and many distribution-provided tools being written against and likely to break with a different Python installation, so we can't safely remove/overwrite it).\n\n# Image Variants\n\nThe `python` images come in many flavors, each designed for a specific use case.\n\n## `python:<version>`\n\nThis is the defacto image. If you are unsure about what your needs are, you probably want to use this one. It is designed to be used both as a throw away container (mount your source code and start the container to start your app), as well as the base to build other images off of.\n\nSome of these tags may have names like bookworm or bullseye in them. These are the suite code names for releases of [Debian](https://wiki.debian.org/DebianReleases) and indicate which release the image is based on. If your image needs to install any additional packages beyond what comes with the image, you'll likely want to specify one of these explicitly to minimize breakage when there are new releases of Debian.\n\nThis tag is based off of [`buildpack-deps`](https://hub.docker.com/_/buildpack-deps/). `buildpack-deps` is designed for the average user of Docker who has many images on their system. It, by design, has a large number of extremely common Debian packages. This reduces the number of packages that images that derive from it need to install, thus reducing the overall size of all images on your system.\n\n## `python:<version>-slim`\n\nThis image does not contain the common packages contained in the default tag and only contains the minimal packages needed to run `python`. Unless you are working in an environment where *only* the `python` image will be deployed and you have space constraints, we highly recommend using the default image of this repository.\n\n## `python:<version>-alpine`\n\nThis image is based on the popular [Alpine Linux project](https://alpinelinux.org), available in [the `alpine` official image](https://hub.docker.com/_/alpine). Alpine Linux is much smaller than most distribution base images (~5MB), and thus leads to much slimmer images in general.\n\nThis variant is useful when final image size being as small as possible is your primary concern. The main caveat to note is that it does use [musl libc](https://musl.libc.org) instead of [glibc and friends](https://www.etalabs.net/compare_libcs.html), so software will often run into issues depending on the depth of their libc requirements/assumptions. See [this Hacker News comment thread](https://news.ycombinator.com/item?id=10782897) for more discussion of the issues that might arise and some pro/con comparisons of using Alpine-based images.\n\nTo minimize image size, it's uncommon for additional related tools (such as `git` or `bash`) to be included in Alpine-based images. Using this image as a base, add the things you need in your own Dockerfile (see the [`alpine` image description](https://hub.docker.com/_/alpine/) for examples of how to install packages if you are unfamiliar).\n\n## `python:<version>-windowsservercore`\n\nThis image is based on [Windows Server Core (`microsoft/windowsservercore`)](https://hub.docker.com/r/microsoft/windowsservercore/). As such, it only works in places which that image does, such as Windows 10 Professional/Enterprise (Anniversary Edition) or Windows Server 2016.\n\nFor information about how to get Docker running on Windows, please see the relevant \"Quick Start\" guide provided by Microsoft:\n\n-\t[Windows Server Quick Start](https://msdn.microsoft.com/en-us/virtualization/windowscontainers/quick_start/quick_start_windows_server)\n-\t[Windows 10 Quick Start](https://msdn.microsoft.com/en-us/virtualization/windowscontainers/quick_start/quick_start_windows_10)\n\n# License\n\nView license information for [Python 2](https://docs.python.org/2/license.html) and [Python 3](https://docs.python.org/3/license.html).\n\nAs with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).\n\nSome additional license information which was able to be auto-detected might be found in [the `repo-info` repository's `python/` directory](https://github.com/docker-library/repo-info/tree/master/repos/python).\n\nAs for any pre-built image usage, it is the image user's responsibility to ensure that any use of this image complies with any relevant licenses for all software contained within.\n",
+            "id": 7,
+            "metadata": {},
+            "name": "lorem-ipsum-dolor/python",
+            "project_id": 2861,
+            "pull_count": 0,
+            "update_time": "2023-12-06 07:29:03.122000+00:00"
+        },
+        {
+            "artifact_count": 1,
+            "artifacts": [
+                {
+                    "accessories": null,
+                    "addition_links": {
+                        "build_history": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/lorem-ipsum-dolor/repositories/alpine/artifacts/sha256:d695c3de6fcd8cfe3a6222b0358425d40adfd129a8a47c3416faff1a8aece389/additions/build_history"
+                        },
+                        "vulnerabilities": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/lorem-ipsum-dolor/repositories/alpine/artifacts/sha256:d695c3de6fcd8cfe3a6222b0358425d40adfd129a8a47c3416faff1a8aece389/additions/vulnerabilities"
+                        }
+                    },
+                    "annotations": null,
+                    "digest": "sha256:d695c3de6fcd8cfe3a6222b0358425d40adfd129a8a47c3416faff1a8aece389",
+                    "extra_attrs": {
+                        "architecture": "amd64",
+                        "author": "",
+                        "config": {
+                            "Cmd": [
+                                "/bin/sh"
+                            ],
+                            "Env": [
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+                            ]
+                        },
+                        "created": "2023-11-30T23:22:52.738129857Z",
+                        "os": "linux"
+                    },
+                    "icon": "sha256:0048162a053eef4d4ce3fe7518615bef084403614f8bca43b40ae2e762e11e06",
+                    "id": 6,
+                    "labels": null,
+                    "manifest_media_type": "application/vnd.docker.distribution.manifest.v2+json",
+                    "media_type": "application/vnd.docker.container.image.v1+json",
+                    "project_id": 2861,
+                    "pull_time": "0001-01-01 00:00:00+00:00",
+                    "push_time": "2023-12-06 06:02:10.293000+00:00",
+                    "references": null,
+                    "repository_id": 6,
+                    "scan_overview": null,
+                    "size": 3404422,
+                    "tags": [
+                        {
+                            "artifact_id": 6,
+                            "id": 8,
+                            "immutable": false,
+                            "name": "latest",
+                            "pull_time": "0001-01-01 00:00:00+00:00",
+                            "push_time": "2023-12-06 06:02:10.758000+00:00",
+                            "repository_id": 6,
+                            "signed": false
+                        }
+                    ],
+                    "type": "IMAGE"
+                }
+            ],
+            "build_history": [
+                {
+                    "created": "2023-11-30T23:22:52.632616385Z",
+                    "created_by": "/bin/sh -c #(nop) ADD file:fc714080c3bcbbce7ac746a10d7b4355ffa36293a8d435d62cd5359ea8eb8364 in / "
+                },
+                {
+                    "created": "2023-11-30T23:22:52.738129857Z",
+                    "created_by": "/bin/sh -c #(nop)  CMD [\"/bin/sh\"]",
+                    "empty_layer": true
+                }
+            ],
+            "creation_time": "2023-12-06 06:02:08.847000+00:00",
+            "description": "<!--\n\n********************************************************************************\n\nWARNING:\n\n    DO NOT EDIT \"alpine/README.md\"\n\n    IT IS AUTO-GENERATED\n\n    (from the other files in \"alpine/\" combined with a set of templates)\n\n********************************************************************************\n\n-->\n\n# Quick reference\n\n-\t**Maintained by**:  \n\t[Natanael Copa](https://github.com/alpinelinux/docker-alpine) (an Alpine Linux maintainer)\n\n-\t**Where to get help**:  \n\t[the Docker Community Slack](https://dockr.ly/comm-slack), [Server Fault](https://serverfault.com/help/on-topic), [Unix & Linux](https://unix.stackexchange.com/help/on-topic), or [Stack Overflow](https://stackoverflow.com/help/on-topic)\n\n# Supported tags and respective `Dockerfile` links\n\n-\t[`20230901`, `edge`](https://github.com/alpinelinux/docker-alpine/blob/9f17b1fa5a5c3ea6de378b610f2eb2fdcdfb15b3/x86_64/Dockerfile)\n-\t[`3.18.5`, `3.18`, `3`, `latest`](https://github.com/alpinelinux/docker-alpine/blob/a83fe3481a89201ac736f735062360f5953be635/x86_64/Dockerfile)\n-\t[`3.17.6`, `3.17`](https://github.com/alpinelinux/docker-alpine/blob/4de8583a90c86e251755f4bae4080f86e2449df8/x86_64/Dockerfile)\n-\t[`3.16.8`, `3.16`](https://github.com/alpinelinux/docker-alpine/blob/6e630a20c86d1d0e5987681e02ed6de64ecbbf37/x86_64/Dockerfile)\n-\t[`3.15.11`, `3.15`](https://github.com/alpinelinux/docker-alpine/blob/7cf8098b8827402d711e102da28445cfe0d72b1d/x86_64/Dockerfile)\n\n# Quick reference (cont.)\n\n-\t**Where to file issues**:  \n\t[https://github.com/alpinelinux/docker-alpine/issues](https://github.com/alpinelinux/docker-alpine/issues?q=)\n\n-\t**Supported architectures**: ([more info](https://github.com/docker-library/official-images#architectures-other-than-amd64))  \n\t[`amd64`](https://hub.docker.com/r/amd64/alpine/), [`arm32v6`](https://hub.docker.com/r/arm32v6/alpine/), [`arm32v7`](https://hub.docker.com/r/arm32v7/alpine/), [`arm64v8`](https://hub.docker.com/r/arm64v8/alpine/), [`i386`](https://hub.docker.com/r/i386/alpine/), [`ppc64le`](https://hub.docker.com/r/ppc64le/alpine/), [`riscv64`](https://hub.docker.com/r/riscv64/alpine/), [`s390x`](https://hub.docker.com/r/s390x/alpine/)\n\n-\t**Published image artifact details**:  \n\t[repo-info repo's `repos/alpine/` directory](https://github.com/docker-library/repo-info/blob/master/repos/alpine) ([history](https://github.com/docker-library/repo-info/commits/master/repos/alpine))  \n\t(image metadata, transfer size, etc)\n\n-\t**Image updates**:  \n\t[official-images repo's `library/alpine` label](https://github.com/docker-library/official-images/issues?q=label%3Alibrary%2Falpine)  \n\t[official-images repo's `library/alpine` file](https://github.com/docker-library/official-images/blob/master/library/alpine) ([history](https://github.com/docker-library/official-images/commits/master/library/alpine))\n\n-\t**Source of this description**:  \n\t[docs repo's `alpine/` directory](https://github.com/docker-library/docs/tree/master/alpine) ([history](https://github.com/docker-library/docs/commits/master/alpine))\n\n# What is Alpine Linux?\n\n[Alpine Linux](https://alpinelinux.org/) is a Linux distribution built around [musl libc](https://www.musl-libc.org/) and [BusyBox](https://www.busybox.net/). The image is only 5 MB in size and has access to a [package repository](https://pkgs.alpinelinux.org/) that is much more complete than other BusyBox based images. This makes Alpine Linux a great image base for utilities and even production applications. [Read more about Alpine Linux here](https://alpinelinux.org/about/) and you can see how their mantra fits in right at home with Docker images.\n\n![logo](https://raw.githubusercontent.com/docker-library/docs/781049d54b1bd9b26d7e8ad384a92f7e0dcb0894/alpine/logo.png)\n\n# How to use this image\n\n## Usage\n\nUse like you would any other base image:\n\n```dockerfile\nFROM alpine:3.14\nRUN apk add --no-cache mysql-client\nENTRYPOINT [\"mysql\"]\n```\n\nThis example has a virtual image size of only 36.8MB. Compare that to our good friend Ubuntu:\n\n```dockerfile\nFROM ubuntu:20.04\nRUN apt-get update \\\n    && apt-get install -y --no-install-recommends mysql-client \\\n    && rm -rf /var/lib/apt/lists/*\nENTRYPOINT [\"mysql\"]\n```\n\nThis yields us a virtual image size of about 145MB image.\n\n# License\n\nView [license information](https://pkgs.alpinelinux.org) for the software contained in this image.\n\nAs with all Docker images, these likely also contain other software which may be under other licenses (such as Bash, etc from the base distribution, along with any direct or indirect dependencies of the primary software being contained).\n\nSome additional license information which was able to be auto-detected might be found in [the `repo-info` repository's `alpine/` directory](https://github.com/docker-library/repo-info/tree/master/repos/alpine).\n\nAs for any pre-built image usage, it is the image user's responsibility to ensure that any use of this image complies with any relevant licenses for all software contained within.\n",
+            "id": 6,
+            "metadata": {},
+            "name": "lorem-ipsum-dolor/alpine",
+            "project_id": 2861,
+            "pull_count": 0,
+            "update_time": "2023-12-06 07:30:43.201000+00:00"
+        },
+        {
+            "artifact_count": 1,
+            "artifacts": [
+                {
+                    "accessories": null,
+                    "addition_links": {
+                        "build_history": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/lorem-ipsum-dolor/repositories/of-watchdog/artifacts/sha256:fca8080f5a50c421db2cd0d784c8eb6f99e0dfaa338b4dfbb0d792d079cef142/additions/build_history"
+                        },
+                        "vulnerabilities": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/lorem-ipsum-dolor/repositories/of-watchdog/artifacts/sha256:fca8080f5a50c421db2cd0d784c8eb6f99e0dfaa338b4dfbb0d792d079cef142/additions/vulnerabilities"
+                        }
+                    },
+                    "annotations": null,
+                    "digest": "sha256:fca8080f5a50c421db2cd0d784c8eb6f99e0dfaa338b4dfbb0d792d079cef142",
+                    "extra_attrs": {
+                        "architecture": "amd64",
+                        "author": "",
+                        "config": {
+                            "Entrypoint": [
+                                "/fwatchdog"
+                            ],
+                            "Env": [
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+                            ],
+                            "WorkingDir": "/"
+                        },
+                        "created": "2023-11-10T10:43:47.114225252Z",
+                        "os": "linux"
+                    },
+                    "icon": "sha256:0048162a053eef4d4ce3fe7518615bef084403614f8bca43b40ae2e762e11e06",
+                    "id": 5,
+                    "labels": null,
+                    "manifest_media_type": "application/vnd.docker.distribution.manifest.v2+json",
+                    "media_type": "application/vnd.docker.container.image.v1+json",
+                    "project_id": 2861,
+                    "pull_time": "0001-01-01 00:00:00+00:00",
+                    "push_time": "2023-12-06 06:00:20.726000+00:00",
+                    "references": null,
+                    "repository_id": 5,
+                    "scan_overview": null,
+                    "size": 3669322,
+                    "tags": [
+                        {
+                            "artifact_id": 5,
+                            "id": 7,
+                            "immutable": false,
+                            "name": "latest",
+                            "pull_time": "0001-01-01 00:00:00+00:00",
+                            "push_time": "2023-12-06 06:00:21.425000+00:00",
+                            "repository_id": 5,
+                            "signed": false
+                        }
+                    ],
+                    "type": "IMAGE"
+                }
+            ],
+            "build_history": [
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2023-11-10T10:43:47.114225252Z",
+                    "created_by": "ARG TARGETPLATFORM",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2023-11-10T10:43:47.114225252Z",
+                    "created_by": "ARG BUILDPLATFORM",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2023-11-10T10:43:47.114225252Z",
+                    "created_by": "ARG TARGETOS",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2023-11-10T10:43:47.114225252Z",
+                    "created_by": "ARG TARGETARCH",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2023-11-10T10:43:47.114225252Z",
+                    "created_by": "COPY /fwatchdog-amd64 ./fwatchdog # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2023-11-10T10:43:47.114225252Z",
+                    "created_by": "ENTRYPOINT [\"/fwatchdog\"]",
+                    "empty_layer": true
+                }
+            ],
+            "creation_time": "2023-12-06 06:00:19.266000+00:00",
+            "description": "# of-watchdog\n\nReverse proxy for HTTP microservices and STDIO\n\n[![Go Report Card](https://goreportcard.com/badge/github.com/openfaas/of-watchdog)](https://goreportcard.com/report/github.com/openfaas/of-watchdog) [![build](https://github.com/openfaas/of-watchdog/actions/workflows/build.yaml/badge.svg)](https://github.com/openfaas/of-watchdog/actions/workflows/build.yaml)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n[![OpenFaaS](https://img.shields.io/badge/openfaas-serverless-blue.svg)](https://www.openfaas.com)\n\nThe `of-watchdog` implements an HTTP server listening on port 8080, and acts as a reverse proxy for running functions and microservices. It can be used independently, or as the entrypoint for a container with OpenFaaS.\n\nThis version of the OpenFaaS watchdog adds support for HTTP proxying as well as STDIO, which enables reuse of memory and very fast serving of requests. It does not aim to replace the [Classic Watchdog](https://github.com/openfaas/classic-watchdog), but offers another option for those who need these features.\n\nA download is made via GitHub releases, but the watchdog is meant to be copied from the container image published to [ghcr.io](https://github.com/openfaas/of-watchdog/pkgs/container/of-watchdog) in a multi-stage build:\n\n```bash\nFROM --platform=${TARGETPLATFORM:-linux/amd64} ghcr.io/openfaas/of-watchdog:0.9.11 as watchdog\nFROM --platform=${TARGETPLATFORM:-linux/amd64} node:18-alpine as ship\n\nCOPY --from=watchdog /fwatchdog /usr/bin/fwatchdog\n```\n\n[See example templates](https://github.com/openfaas/templates/)\n\n### Goals\n\n* Keep function process warm for lower latency / caching / persistent connections through using HTTP\n* Enable streaming of large responses from functions, beyond the RAM or disk capacity of the container\n* Cleaner abstractions for each \"mode\"\n\n## Modes\n\nThere are several modes available for the of-watchdog which changes how it interacts with your microservice or function code.\n\n![Modes for of-watchdog](https://docs.openfaas.com/architecture/watchdog-modes.png)\n\n> A comparison of three watchdog modes. Top left - Classic Watchdog, top right: afterburn (deprecated), bottom left HTTP mode from of-watchdog.\n\n1) HTTP mode - the default and most efficient option all template authors should consider this option if the target language has a HTTP server implementation.\n2) Serializing mode - for when a HTTP server implementation doesn't exist, STDIO is read into memory then sent into a forked process.\n3) Streaming mode - as per serializing mode, however the request and response are both streamed instead of being buffered completely into memory before the function starts running.\n\n### API\n\nPrivate endpoints, served by watchdog:\n\n* `/_/health` - returns true when the process is started, or if a lock file is in use, when that file exists.\n* `/_/ready` - as per `/_/health`, but if `max_inflight` is configured to a non-zero value, and the maximum number of connections is met, it will return a 429 status\n\nAny other HTTP requests:\n\n* `/*` any other Path and HTTP verbs are sent to the function\n\n### 1. HTTP (mode=http)\n\n#### 1.1 Status\n\nHTTP mode is recommend for all templates where the target language has a HTTP server implementation available.\n\nSee a few different examples of templates, more are available via `faas-cli template store list`\n\n| Template         | HTTP framework     | Repo           |\n| ---------------- | ------------------ | ----------------------------------------------------------- |\n| Node.js 12 (LTS) | Express.js         | https://github.com/openfaas/templates/            |\n| Python 3 & 2.7   | Flask    | https://github.com/openfaas-incubator/python-flask-template |\n| Golang           | Go HTTP (stdlib)   | https://github.com/openfaas-incubator/golang-http-template  |\n| Golang           | (http.HandlerFunc) | https://github.com/openfaas-incubator/golang-http-template  |\n| Ruby   | Sinatra  | https://github.com/openfaas-incubator/ruby-http   |\n| Java 11          | Sun HTTP / Gradle  | https://github.com/openfaas/templates/            |\n\nUnofficial: [.NET Core / C# and Kestrel](https://github.com/burtonr/csharp-kestrel-template)\n\n#### 1.2 Description\n\nA process is forked when the watchdog starts, we then forward any request incoming to the watchdog to a HTTP port within\nthe container.\n\nPros:\n\n* Fastest option for high concurrency and throughput\n* More efficient concurrency and RAM usage vs. forking model\n* Database connections can be persisted for the lifetime of the container\n* Files or models can be fetched and stored in `/tmp/` as a one-off initialization task and used for all requests after that\n* Does not require new/custom client libraries like afterburn but makes use of a long-running daemon such as Express.js for Node or Flask for Python\n\nExample usage for testing:\n\n* Forward to an Nginx container:\n\n```\n$ go build ; mode=http port=8081 fprocess=\"docker run -p 80:80 --name nginx -t nginx\" upstream_url=http://127.0.0.1:80 ./of-watchdog\n```\n\n* Forward to a Node.js / Express.js hello-world app:\n\n```\n$ go build ; mode=http port=8081 fprocess=\"node expressjs-hello-world.js\" upstream_url=http://127.0.0.1:3000 ./of-watchdog\n```\n\nCons:\n\n* One more HTTP hop in the chain between the client and the function\n* Daemons such as express/flask/sinatra can be unpredictable when used in this way so many need additional configuration\n* Additional memory may be occupied between invocations vs. forking model\n\n### 2. Serializing fork (mode=serializing)\n\n#### 2.1 Status\n\nThis mode is designed to replicate the behaviour of the original watchdog for backwards compatibility.\n\n#### 2.2 Description\n\nForks one process per request. Multi-threaded. Ideal for retro-fitting a CGI application handler i.e. for Flask.\n\n![](https://camo.githubusercontent.com/61c169ab5cd01346bc3dc7a11edc1d218f0be3b4/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f4447536344626c554941416f34482d2e6a70673a6c61726765)\n\nLimited to processing files sized as per available memory.\n\nReads entire request into memory from the HTTP request. At this point we serialize or modify if required. That is then written into the stdin pipe.\n\n* Stdout pipe is read into memory and then serialized or modified if necessary before being written back to the HTTP response.\n* A static Content-type can be set ahead of time.\n* HTTP headers can be set even after executing the function (not implemented).\n* Exec timeout: supported.\n\n### 3. Streaming fork (mode=streaming) - default.\n\nForks a process per request and can deal with a request body larger than memory capacity - i.e. 512mb VM can process multiple GB of video.\n\nHTTP headers cannot be sent after function starts executing due to input/output being hooked-up directly to response for\nstreaming efficiencies. Response code is always 200 unless there is an issue forking the process. An error mid-flight\nwill have to be picked up on the client. Multi-threaded.\n\n* Input is sent back to client as soon as it's printed to stdout by the executing process.\n* A static Content-type can be set ahead of time.\n* Exec timeout: supported.\n\n### 4. Static (mode=static)\n\nThis mode starts an HTTP file server for serving static content found at the directory specified by `static_path`.\n\nSee an example in the [Hugo blog post](https://www.openfaas.com/blog/serverless-static-sites/).\n\n## Metrics\n\n| Name      | Description        | Type      |\n| ----------------------------- | ---------------------------- | --------- |\n| http_requests_total           | Total number of requests     | Counter   |\n| http_request_duration_seconds | Duration of requests         | Histogram |\n| http_requests_in_flight       | Number of requests in-flight | Gauge     |\n\n## Configuration\n\nEnvironmental variables:\n\n> Note: timeouts should be specified as Golang durations i.e. `1m` or `20s`.\n\n| Option                           | Usage|\n| -------------------------------- |---------------------------------------------------------------------|\n| `buffer_http`                    | (Deprecated) Alias for `http_buffer_req_body`, will be removed in future version    |\n| `content_type`                   |  Force a specific Content-Type response for all responses - only in forking/serializing modes.        |\n| `exec_timeout`                   |  Exec timeout for process exec'd for each incoming request (in seconds). Disabled if set to 0.        |\n| `fprocess` / `function_process`  |  Process to execute a server in `http` mode or to be executed for each request in the other modes. For non `http` mode the process must accept input via STDIN and print output via STDOUT. Also known as \"function process\".        |\n| `healthcheck_interval`           |  Interval (in seconds) for HTTP healthcheck by container orchestrator i.e. kubelet. Used for graceful shutdowns.          |\n| `http_buffer_req_body`           |  `http` mode only - buffers request body in memory before forwarding upstream to your template's `upstream_url`. Use if your upstream HTTP server does not accept `Transfer-Encoding: chunked`, for example WSGI tends to require this setting. Default: `false`                |\n| `http_upstream_url`              |  `http` mode only - where to forward requests i.e. `http://127.0.0.1:5000`      |\n| `log_buffer_size`                | The amount of bytes to read from stderr/stdout for log lines. When exceeded, the user will see an \"bufio.Scanner: token too long\" error. The default value is `bufio.MaxScanTokenSize`           |\n| `max_inflight`                   |  Limit the maximum number of requests in flight, and return a HTTP status 429 when exceeded           |\n| `mode`                           |  The mode which of-watchdog operates in, Default `streaming` [see doc](#3-streaming-fork-modestreaming---default). Options are [http](#1-http-modehttp), [serialising fork](#2-serializing-fork-modeserializing), [streaming fork](#3-streaming-fork-modestreaming---default), [static](#4-static-modestatic) |\n| `port`                           |  Specify an alternative TCP port for testing. Default: `8080`            |\n| `prefix_logs`                    |  When set to `true` the watchdog will add a prefix of \"Date Time\" + \"stderr/stdout\" to every line read from the function process. Default `true`             |\n| `read_timeout`                   |  HTTP timeout for reading the payload from the client caller (in seconds)          |\n| `ready_path`                     | When non-empty, requests to `/_/ready` will invoke the function handler with this path. This can be used to provide custom readiness logic. When `max_inflight` is set, the concurrency limit is checked first before proxying the request to the function. |\n| `static_path`                    |  Absolute or relative path to the directory that will be served if `mode=\"static\"` |\n| `suppress_lock`                  |  When set to `false` the watchdog will attempt to write a lockfile to `/tmp/.lock` for healthchecks. Default `false`   |\n| `upstream_url`                   |  Alias for `http_upstream_url`                                                          |\n| `write_timeout`                  |  HTTP timeout for writing a response body from your function (in seconds)          |\n\nUnsupported options from the [Classic Watchdog](https://github.com/openfaas/classic-watchdog):\n\n| Option               | Usage                                                                                         |\n| -------------------- | --------------------------------------------------------------------------------------------- |\n| `write_debug`        | In the classic watchdog, this prints the response body out to the console |\n| `read_debug`         | In the classic watchdog, this prints the request body out to the console |\n| `combined_output`    | In the classic watchdog, this returns STDOUT and STDERR in the function's HTTP response, when off it only returns STDOUT and prints STDERR to the logs of the watchdog |\n\n",
+            "id": 5,
+            "metadata": {},
+            "name": "lorem-ipsum-dolor/of-watchdog",
+            "project_id": 2861,
+            "pull_count": 0,
+            "update_time": "2023-12-06 08:02:28.204000+00:00"
+        }
+    ],
+    "togglable": null,
+    "update_time": "2023-12-06 05:56:02.313000+00:00"
+}
