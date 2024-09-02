@@ -3,13 +3,13 @@
              async init() {
                  const { initLocale, initCurrency } = await provisionLocation('de-De', 'EUR');
                  this.locale = initLocale;
-                 if (initCurrency.toLowerCase() == 'CHF' || initCurrency.toLowerCase() == 'EUR') {
-                     this.currency = initCurrency;
+                 if (initCurrency.toUpperCase() == 'CHF' || initCurrency.toUpperCase() == 'EUR') {
+                     this.currency = initCurrency.toUpperCase();
                  } else {
                      this.currency = 'USD';
                  }
                  this.subscriptionPeriods = getSubscriptionPeriods(this.currency);
-                 const oneYearPriceDiff = this.monthlyPrice * 12 - this.yearlyPrice;
+                 const oneYearPriceDiff = this.monthlyPrice * 12 - this.yearlyPrice * 12;
                  this.savedMoney = `The annual subscription saves you ${formatPrice(this.currency, oneYearPriceDiff)}.`;
              },
              locale: 'de-DE',
@@ -22,7 +22,7 @@
              subscriptionPeriods: getSubscriptionPeriods('EUR'),
              subscriptionPeriodId: 'yearly',
              selectedCloudProvider: regions[0].id,
-             savedMoney: `The annual subscription saves you ${formatPrice('EUR', 59 * 12 - 49)}.`
+             savedMoney: `The annual subscription saves you ${formatPrice('EUR', 59 * 12 - 49 * 12)}.`
      }" x-init class="strip strip-grey"><div class="container pt-4 pt-md-10 pb-4 pb-md-10"><div class=row><div class=col-md-5><h1>Dedicated Container Registry Trial Sign Up</h1><p id=CollectedForms-7006577></p><form method=POST action=https://gw.app.8gears.com/function/dedicated-ordering-service/chargebee/website/customer enctype=application/json><input type=hidden name=plan_version class=form-control style=display:none :value=planVersion>
 <input type=hidden name=plan_currency class=form-control style=display:none :value=currency><div class="pt-1 form-group row"><div class="col-md-6 spacing"><input type=text :required=!isRegistrationExternal(selectedCloudProvider) :disabled=isRegistrationExternal(selectedCloudProvider) name=first_name class=form-control :placeholder="getPlaceholder('First Name')"><div class=invalid-feedback>Please provide more than two characters.</div></div><div class=col-md-6><input type=text :required=!isRegistrationExternal(selectedCloudProvider) :disabled=isRegistrationExternal(selectedCloudProvider) name=last_name class=form-control :placeholder="getPlaceholder('Last Name')"></div></div><div class=form-group><input id=_email type=email :required=!isRegistrationExternal(selectedCloudProvider) :disabled=isRegistrationExternal(selectedCloudProvider) name=_email class=form-control :placeholder="getPlaceholder('Email')">
 <input id=email type=hidden name=email class=form-control style=display:none></div><div class=form-group><input type=company name=company :disabled=isRegistrationExternal(selectedCloudProvider) class=form-control placeholder="Company Name"></div><p class=pt-1>Container Registry Region</p><select x-model=selectedCloudProvider class=form-control name=provider autocomplete=off autocomplete=nope><template x-for="region in regions"><option :value=region.id x-text=region.name :disabled=!region.enabled></option></template></select><p class=pt-1>Subscription</p><template x-for="s in subscriptionPeriods"><div class=pl-2><input x-model=subscriptionPeriodId name=subscription_period :id=s.id type=radio :disabled=isRegistrationExternal(selectedCloudProvider) :value=s.id>
