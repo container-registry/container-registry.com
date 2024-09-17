@@ -1,0 +1,530 @@
+{
+    "chart_count": 0,
+    "creation_time": "2024-09-12 08:15:32.447000+00:00",
+    "current_user_role_id": 1,
+    "current_user_role_ids": [
+        1
+    ],
+    "cve_allowlist": {
+        "creation_time": "0001-01-01 00:00:00+00:00",
+        "expires_at": null,
+        "id": 37,
+        "items": [],
+        "project_id": 37,
+        "update_time": "0001-01-01 00:00:00+00:00"
+    },
+    "deleted": null,
+    "metadata": {
+        "auto_scan": null,
+        "enable_content_trust": null,
+        "enable_content_trust_cosign": null,
+        "instance": "centred_ramanujan",
+        "instanceUrl": "https://centred-ramanujan.container-registry.com",
+        "monthlyPrice": 7900,
+        "monthlyPriceId": "price_1Py9biDmAMB1YDyjllsrsMLp",
+        "oneTimePrice": 11900,
+        "oneTimePriceId": "price_1Py9eqDmAMB1YDyjR163ymIp",
+        "prevent_vul": null,
+        "public": "false",
+        "retention_id": null,
+        "reuse_sys_cve_allowlist": null,
+        "severity": null
+    },
+    "name": "collaborative_tools",
+    "owner_id": 1,
+    "owner_name": "admin",
+    "project_id": 37,
+    "registry_id": null,
+    "repo_count": 2,
+    "repositories": [
+        {
+            "artifact_count": 1,
+            "artifacts": [
+                {
+                    "accessories": null,
+                    "addition_links": {
+                        "build_history": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/collaborative_tools/repositories/maxima-jupyter-polyglot-dark-latex/artifacts/sha256:8649f95abed500dc27daa22fad313ff5fb3be41e50bbe2bcf18ab79e45a3f4c7/additions/build_history"
+                        },
+                        "vulnerabilities": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/collaborative_tools/repositories/maxima-jupyter-polyglot-dark-latex/artifacts/sha256:8649f95abed500dc27daa22fad313ff5fb3be41e50bbe2bcf18ab79e45a3f4c7/additions/vulnerabilities"
+                        }
+                    },
+                    "annotations": null,
+                    "digest": "sha256:8649f95abed500dc27daa22fad313ff5fb3be41e50bbe2bcf18ab79e45a3f4c7",
+                    "extra_attrs": {
+                        "architecture": "amd64",
+                        "author": "",
+                        "config": {
+                            "Cmd": [
+                                "console"
+                            ],
+                            "Entrypoint": [
+                                "jupyter"
+                            ],
+                            "Env": [
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                                "LANG=en_US.UTF-8",
+                                "USER=oubiwann",
+                                "HOME=/home/oubiwann",
+                                "GOPATH=/home/oubiwann/go"
+                            ],
+                            "ExposedPorts": {
+                                "8888/tcp": {}
+                            },
+                            "User": "oubiwann",
+                            "WorkingDir": "/home/oubiwann/maxima-jupyter/examples"
+                        },
+                        "created": "2019-12-19T19:17:35.162773141Z",
+                        "os": "linux"
+                    },
+                    "icon": "sha256:0048162a053eef4d4ce3fe7518615bef084403614f8bca43b40ae2e762e11e06",
+                    "id": 48,
+                    "labels": null,
+                    "manifest_media_type": "application/vnd.docker.distribution.manifest.v2+json",
+                    "media_type": "application/vnd.docker.container.image.v1+json",
+                    "project_id": 37,
+                    "pull_time": "0001-01-01 00:00:00+00:00",
+                    "push_time": "2024-09-12 09:32:59.890000+00:00",
+                    "references": null,
+                    "repository_id": 48,
+                    "scan_overview": null,
+                    "size": 2338095672,
+                    "tags": [
+                        {
+                            "artifact_id": 48,
+                            "id": 48,
+                            "immutable": false,
+                            "name": "latest",
+                            "pull_time": "0001-01-01 00:00:00+00:00",
+                            "push_time": "2024-09-12 09:33:00.225000+00:00",
+                            "repository_id": 48,
+                            "signed": false
+                        }
+                    ],
+                    "type": "IMAGE"
+                }
+            ],
+            "build_history": [
+                {
+                    "created": "2019-06-01T07:27:30.78204984Z",
+                    "created_by": "/bin/sh -c #(nop) ADD file:57201091f306c2d8881b92daa907e367b045a7813ae5a4bd0e401437b84be138 in / "
+                },
+                {
+                    "created": "2019-06-01T07:27:32.163694565Z",
+                    "created_by": "/bin/sh -c #(nop)  ENV LANG=en_US.UTF-8",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-06-01T07:27:32.779309277Z",
+                    "created_by": "/bin/sh -c #(nop)  CMD [\"/usr/bin/bash\"]",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-06-28T21:43:58.4597869Z",
+                    "created_by": "/bin/sh -c #(nop)  ARG NB_USER=mj",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-06-28T21:43:58.8600544Z",
+                    "created_by": "/bin/sh -c #(nop)  ARG NB_UID=1000",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-06-28T21:43:59.2608427Z",
+                    "created_by": "/bin/sh -c #(nop)  ENV USER=oubiwann",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-06-28T21:43:59.6611285Z",
+                    "created_by": "/bin/sh -c #(nop)  ENV HOME=/home/oubiwann",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-06-28T22:21:29.5580411Z",
+                    "created_by": "|2 NB_UID=1000 NB_USER=oubiwann /bin/sh -c pacman -Syu --noconfirm base-devel jupyter gnuplot maxima &&     useradd --create-home --shell=/bin/false --uid=${NB_UID} ${NB_USER}"
+                },
+                {
+                    "created": "2019-06-28T22:21:30.9876104Z",
+                    "created_by": "/bin/sh -c #(nop) WORKDIR /home/oubiwann/maxima-jupyter"
+                },
+                {
+                    "created": "2019-06-28T22:21:31.6694994Z",
+                    "created_by": "/bin/sh -c #(nop) COPY dir:26ddc896e54916fc726d86b3f765c299e0e6b7d6b7383f49a9744decbf08fdc0 in /home/oubiwann/maxima-jupyter "
+                },
+                {
+                    "created": "2019-06-28T22:21:32.0668585Z",
+                    "created_by": "/bin/sh -c #(nop) COPY file:a8ceba9f0c8c80fd71d92bdba7b80558da97be28654471a64a38aeebc1300970 in /usr/lib/python3.7/site-packages/notebook/static/components/codemirror/mode/maxima "
+                },
+                {
+                    "created": "2019-06-28T22:21:32.4261032Z",
+                    "created_by": "/bin/sh -c #(nop) COPY file:bf1d15ac52d10d065a9cf7275f12535a0c2f0dec528f89943cfc2382f280bfea in /usr/lib/python3.7/site-packages/pygments/lexers "
+                },
+                {
+                    "created": "2019-06-28T22:21:34.1326274Z",
+                    "created_by": "|2 NB_UID=1000 NB_USER=oubiwann /bin/sh -c patch /usr/lib/python3.7/site-packages/notebook/static/components/codemirror/mode/meta.js codemirror-mode-meta-patch &&     patch /usr/lib/python3.7/site-packages/pygments/lexers/_mapping.py pygments-mapping-patch &&     chown -R ${NB_UID} ${HOME} && chgrp -R ${NB_USER} ${HOME}"
+                },
+                {
+                    "created": "2019-06-28T22:21:34.4823412Z",
+                    "created_by": "/bin/sh -c #(nop)  USER oubiwann",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-06-28T22:22:23.8871688Z",
+                    "created_by": "|2 NB_UID=1000 NB_USER=oubiwann /bin/sh -c curl -O https://beta.quicklisp.org/quicklisp.lisp &&     sbcl --load quicklisp.lisp --load docker-install-quicklisp.lisp &&     python install-maxima-jupyter.py --user --root=`pwd` &&     echo quit | jupyter-console --no-confirm-exit --kernel=maxima --ZMQTerminalInteractiveShell.kernel_timeout=240"
+                },
+                {
+                    "created": "2019-06-28T22:22:24.265981Z",
+                    "created_by": "/bin/sh -c #(nop)  USER root",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-06-28T22:22:25.7274939Z",
+                    "created_by": "|2 NB_UID=1000 NB_USER=oubiwann /bin/sh -c pacman -Scc --noconfirm"
+                },
+                {
+                    "created": "2019-06-28T22:22:26.0772889Z",
+                    "created_by": "/bin/sh -c #(nop)  USER oubiwann",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-06-28T22:22:26.5165536Z",
+                    "created_by": "/bin/sh -c #(nop) WORKDIR /home/oubiwann/maxima-jupyter/examples",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-06-28T22:22:26.8244199Z",
+                    "created_by": "/bin/sh -c #(nop)  EXPOSE 8888",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-06-28T22:22:27.1671187Z",
+                    "created_by": "/bin/sh -c #(nop)  CMD [\"console\" \"--kernel=maxima\"]",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-06-28T22:22:27.5372716Z",
+                    "created_by": "/bin/sh -c #(nop)  ENTRYPOINT [\"jupyter\"]",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-12-18T23:40:50.756607573Z",
+                    "created_by": "/bin/sh -c #(nop) COPY dir:5ae211254a31cbcb05719c9ddcff140340416f16728a7c7a22e5d712b03df631 in /cl-jupyter "
+                },
+                {
+                    "created": "2019-12-18T23:40:59.334452559Z",
+                    "created_by": "/bin/sh -c python /cl-jupyter/install-cl-jupyter.py &&     sbcl --load /cl-jupyter/cl-jupyter.lisp &&     cp /cl-jupyter/about-cl-jupyter.ipynb /home/oubiwann/maxima-jupyter/examples/ &&     echo quit | jupyter-console --no-confirm-exit --kernel=lisp --ZMQTerminalInteractiveShell.kernel_timeout=240"
+                },
+                {
+                    "created": "2019-12-18T23:40:59.624353797Z",
+                    "created_by": "/bin/sh -c #(nop)  CMD [\"console\"]",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-12-18T23:40:59.984446365Z",
+                    "created_by": "/bin/sh -c #(nop)  ENTRYPOINT [\"jupyter\"]",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-12-19T00:08:43.971810137Z",
+                    "created_by": "/bin/sh -c #(nop)  USER root",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-12-19T03:34:47.817056585Z",
+                    "created_by": "/bin/sh -c #(nop)  ENV GOPATH=/home/oubiwann/go",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-12-19T03:34:48.179377215Z",
+                    "created_by": "/bin/sh -c #(nop) COPY dir:636e2f8e0f4e634a57b90527ac53813ab34225e6b0bf546cd5fd2385741d05f0 in /clojure-setup "
+                },
+                {
+                    "created": "2019-12-19T03:42:36.252318956Z",
+                    "created_by": "/bin/sh -c pacman -Syu --noconfirm jdk11-openjdk go go-tools imagemagick &&     curl -O https://download.clojure.org/install/linux-install-1.10.1.492.sh  &&     chmod +x linux-install-1.10.1.492.sh &&     ./linux-install-1.10.1.492.sh &&     cd /clojure-setup &&     clojure -A:depstar -m hf.depstar.uberjar clojupyter-standalone.jar &&     chown -R oubiwann ."
+                },
+                {
+                    "created": "2019-12-19T03:42:38.051882574Z",
+                    "created_by": "/bin/sh -c #(nop)  USER oubiwann",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-12-19T03:43:41.125520668Z",
+                    "created_by": "/bin/sh -c cd /clojure-setup &&     clojure -m clojupyter.cmdline install --ident clj --jarfile clojupyter-standalone.jar &&     clojure -m clojupyter.cmdline list-installs &&     env GO111MODULE=on go get github.com/gopherdata/gophernotes &&     mkdir -p ~/.local/share/jupyter/kernels/gophernotes &&     cd ~/.local/share/jupyter/kernels/gophernotes &&     cp \"$(go env GOPATH)\"/pkg/mod/github.com/gopherdata/gophernotes@v0.6.1/kernel/*  \".\" &&     chmod 644 kernel.json &&     sed \"s|gophernotes|$(go env GOPATH)/bin/gophernotes|\" < kernel.json.in > kernel.json"
+                },
+                {
+                    "created": "2019-12-19T04:13:29.718291716Z",
+                    "created_by": "/bin/sh -c #(nop)  USER root",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-12-19T04:16:03.498905438Z",
+                    "created_by": "/bin/sh -c pacman -Syu --noconfirm inkscape pandoc texlive-core texlive-latexextra"
+                },
+                {
+                    "created": "2019-12-19T04:16:04.689922045Z",
+                    "created_by": "/bin/sh -c #(nop)  USER oubiwann",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-12-19T19:17:08.872279446Z",
+                    "created_by": "/bin/sh -c #(nop)  USER root",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2019-12-19T19:17:34.730318982Z",
+                    "created_by": "/bin/sh -c pacman -Syu --noconfirm python-pip &&     pip install jupyterthemes &&     jt -t onedork"
+                },
+                {
+                    "created": "2019-12-19T19:17:35.162773141Z",
+                    "created_by": "/bin/sh -c #(nop)  USER oubiwann",
+                    "empty_layer": true
+                }
+            ],
+            "creation_time": "2024-09-12 09:32:59.641000+00:00",
+            "description": "[author]: <> (calyau)\n[shortDescription]: <> (maxima-jupyter with additions)\n\n# maxima-jupyter-plus\n\n*[maxima-jupyter][maxima-jupyter] with additions*\n\n[![][logo]][logo-large]\n\n## Features\n\nThis project provides the following additional features on top of the excellent\n[maxima-jupyter][maxima-jupyter] project:\n\n* A Common Lisp kernel along with the Maxima and Python kernels\n* Dark-themed notebook support\n* LaTeX install for PDF-download support from running notebooks (PDF files are \n  formatted as standard technical/research articles)\n* Inkscape (SVG, PDF support)\n* A \"polyglot\" image that contains Jupyter notebook support for Python,\n  Maxima, Common Lisp, Clojure, and Go kernels\n\nForthcoming features may be viewed here: \n* https://github.com/calyau/maxima-jupyter-plus/issues\n\nNote that the use of Arch Linux in these images was due to its use in the \nmaxima-jupyter project's `Dockerfile`.\n\n## Catalog of Docker Images\n\nThe following images generated by this project are available on Docker Hub\n(sizes are also given, with compressed sizes in parentheses):\n\n* [calyau/maxima-jupyter-latex][maxima-jupyter-latex] - 5.12 GB (1.52 GB)\n* [calyau/maxima-jupyter-dark][maxima-jupyter-dark] - 3.85 GB (1.17 GB)\n* [calyau/maxima-jupyter-dark-latex][maxima-jupyter-dark-latex] - 5.36 GB (1.6 GB)\n* [calyau/maxima-jupyter-cl][maxima-jupyter-cl] - 2.04 GB (638.66 MB)\n* [calyau/maxima-jupyter-polyglot][maxima-jupyter-polyglot] - 4.92 GB (1.65 GB)\n* [calyau/maxima-jupyter-polyglot-latex][maxima-jupyter-polyglot-latex] - 6.33 GB (2.04 GB)\n* [calyau/maxima-jupyter-polyglot-dark-latex][maxima-jupyter-polyglot-dark-latex] - 6.53 GB (2.1 GB)\n\nNote that the Docker image for the standard `maxima-jupyter` weighs in at\n~2 GB.\n\n## Examples for Kernels\n\n* Maxima:\n  * https://github.com/robert-dodier/maxima-jupyter#examples\n  * https://github.com/calyau/maxima-tutorial-notebooks\n* Common Lisp\n  * https://github.com/fredokun/cl-jupyter/blob/master/about-cl-jupyter.ipynb\n* Clojure\n  * https://github.com/clojupyter/clojupyter/tree/master/examples\n* Go\n  * https://github.com/gopherdata/gophernotes/tree/master/examples\n\n## Usage\n\n### Running\n\nRun with LaTeX support:\n\n```shell\ndocker run -it \\\n    -p 8888:8888 \\\n    calyau/maxima-jupyter-latex:latest \\\n    notebook --ip=0.0.0.0 --port=8888\n```\n\nRun with dark theme support:\n\n```shell\ndocker run -it \\\n    -p 8888:8888 \\\n    calyau/maxima-jupyter-dark:latest \\\n    notebook --ip=0.0.0.0 --port=8888\n```\n\nRun with dark theme + latex support:\n\n```shell\ndocker run -it \\\n    -p 8888:8888 \\\n    calyau/maxima-jupyter-dark-latex:latest \\\n    notebook --ip=0.0.0.0 --port=8888\n```\n\nRun with Common Lisp (SBCL), Maxima, and Python kernels:\n\n```shell\ndocker run -it \\\n    -p 8888:8888 \\\n    calyau/maxima-jupyter-cl:latest \\\n    notebook --ip=0.0.0.0 --port=8888\n```\n\nRun with Common Lisp (SBCL), Maxima, Clojure, Go, and Python kernels:\n\n```shell\ndocker run -it \\\n    -p 8888:8888 \\\n    calyau/maxima-jupyter-polyglot:latest \\\n    notebook --ip=0.0.0.0 --port=8888\n```\n\nSame as previous, but with LaTeX support:\n\n```shell\ndocker run -it \\\n    -p 8888:8888 \\\n    calyau/maxima-jupyter-polyglot-latex:latest \\\n    notebook --ip=0.0.0.0 --port=8888\n```\n\nSame as previous, but with the dark theme:\n\n```shell\ndocker run -it \\\n    -p 8888:8888 \\\n    calyau/maxima-jupyter-polyglot-dark-latex:latest \\\n    notebook --ip=0.0.0.0 --port=8888\n```\n\n### Overrides\n\nTo run these kernels against your own notebooks directory, you can use\na command like this for start-up:\n\n```shell\ndocker run -it \\\n    -v `pwd`/notebooks:/home/oubiwann/maxima-jupyter/examples \\\n    -p 8888:8888 \\\n    calyau/maxima-jupyter-latex:latest \\\n    notebook --ip=0.0.0.0 --port=8888\n```\n\nIf port `8888` is in use on your system, you can change the port used by\nDocker with a command like this following:\n\n```shell\ndocker run -it \\\n    -p 9999:8888 \\\n    calyau/maxima-jupyter-latex:latest \\\n    notebook --ip=0.0.0.0 --port=8888\n```\n\n## Notes\n\n### Docker Images Sizes\n\nThe images generated by this repo are very large, due to the additional\ndependencies that are pulled in. As such, these images are not intended for\ngeneral use, but rather for the special cases where Docker image size is\na secondary concern to the primary needs addressed by the additional \nfeatures.\n\n### LaTeX Support\n\nWhen creating aligned equations in Markdown text, be careful: MathJAX (used by\nJupyter for web-based LaTeX support) adds LaTeX and this can cause Pandoc to\nexit with an error when attempting to download a PDF of the notebook. In \nparticular, it is recommended that aligned equations be declared in the \nMarkdown cells as the following:\n\n```latex\n$$\\begin{split}\n\\frac {d x}{d t} & = s(y - x) \\\\\n\\frac {d y}{d t} & = rx - y - xz \\\\\n\\frac {d x}{d t} & = xy - bz \\\\\n\\end{split}$$\n```\n\nNote the absence of `{align}` or `{equation}` blocks. \n\n<!-- Named page links below: /-->\n\n[logo]: https://avatars0.githubusercontent.com/u/24504053?s=200&v=4\n[logo-large]: https://avatars0.githubusercontent.com/u/24504053?v=4\n[maxima-jupyter]: https://github.com/robert-dodier/maxima-jupyter\n[maxima-jupyter-latex]: https://hub.docker.com/r/calyau/maxima-jupyter-latex\n[maxima-jupyter-dark]: https://hub.docker.com/r/calyau/maxima-jupyter-dark\n[maxima-jupyter-dark-latex]: https://hub.docker.com/r/calyau/maxima-jupyter-dark-latex\n[maxima-jupyter-cl]: https://hub.docker.com/r/calyau/maxima-jupyter-cl\n[maxima-jupyter-polyglot]: https://hub.docker.com/r/calyau/maxima-jupyter-polyglot\n[maxima-jupyter-polyglot-latex]: https://hub.docker.com/r/calyau/maxima-jupyter-polyglot-latex\n[maxima-jupyter-polyglot-dark-latex]: https://hub.docker.com/r/calyau/maxima-jupyter-polyglot-dark-latex\n",
+            "id": 48,
+            "metadata": {
+                "author": "calyau",
+                "logo": "https://avatars0.githubusercontent.com/u/24504053?s=200&v=",
+                "logo-large": "https://avatars0.githubusercontent.com/u/24504053?v=",
+                "maxima-jupyter": "https://github.com/robert-dodier/maxima-jupyte",
+                "maxima-jupyter-cl": "https://hub.docker.com/r/calyau/maxima-jupyter-c",
+                "maxima-jupyter-dark": "https://hub.docker.com/r/calyau/maxima-jupyter-dar",
+                "maxima-jupyter-dark-latex": "https://hub.docker.com/r/calyau/maxima-jupyter-dark-late",
+                "maxima-jupyter-latex": "https://hub.docker.com/r/calyau/maxima-jupyter-late",
+                "maxima-jupyter-polyglot": "https://hub.docker.com/r/calyau/maxima-jupyter-polyglo",
+                "maxima-jupyter-polyglot-dark-latex": "https://hub.docker.com/r/calyau/maxima-jupyter-polyglot-dark-late",
+                "maxima-jupyter-polyglot-latex": "https://hub.docker.com/r/calyau/maxima-jupyter-polyglot-late",
+                "shortDescription": "maxima-jupyter with additions"
+            },
+            "name": "collaborative_tools/maxima-jupyter-polyglot-dark-latex",
+            "project_id": 37,
+            "pull_count": 0,
+            "update_time": "2024-09-13 03:51:50.948000+00:00"
+        },
+        {
+            "artifact_count": 1,
+            "artifacts": [
+                {
+                    "accessories": null,
+                    "addition_links": {
+                        "build_history": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/collaborative_tools/repositories/atheos/artifacts/sha256:70bc0b42b24591762b2b72df3985023430fa3201f1530cbe4c89b6b0560a1c1d/additions/build_history"
+                        },
+                        "vulnerabilities": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/collaborative_tools/repositories/atheos/artifacts/sha256:70bc0b42b24591762b2b72df3985023430fa3201f1530cbe4c89b6b0560a1c1d/additions/vulnerabilities"
+                        }
+                    },
+                    "annotations": null,
+                    "digest": "sha256:70bc0b42b24591762b2b72df3985023430fa3201f1530cbe4c89b6b0560a1c1d",
+                    "extra_attrs": {
+                        "architecture": "amd64",
+                        "author": "Liam Siira <liam@siira.io>",
+                        "config": {
+                            "ArgsEscaped": true,
+                            "Cmd": [
+                                "apachectl",
+                                "-D",
+                                "FOREGROUND"
+                            ],
+                            "Env": [
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                                "DEBIAN_FRONTEND=noninteractive"
+                            ],
+                            "ExposedPorts": {
+                                "443/tcp": {},
+                                "80/tcp": {}
+                            },
+                            "Labels": {
+                                "Description": "Web-based cloud IDE with minimal footprint and requirements. ",
+                                "Usage": "docker run -d -p [HOST WWW PORT NUMBER]:80 hlsiira:latest",
+                                "Version": "1.0",
+                                "org.opencontainers.image.ref.name": "ubuntu",
+                                "org.opencontainers.image.version": "24.04"
+                            },
+                            "Volumes": {
+                                "/etc/apache2": {},
+                                "/var/www/html": {}
+                            }
+                        },
+                        "created": "2024-09-11T11:41:59.760123939Z",
+                        "os": "linux"
+                    },
+                    "icon": "sha256:0048162a053eef4d4ce3fe7518615bef084403614f8bca43b40ae2e762e11e06",
+                    "id": 46,
+                    "labels": null,
+                    "manifest_media_type": "application/vnd.oci.image.manifest.v1+json",
+                    "media_type": "application/vnd.oci.image.config.v1+json",
+                    "project_id": 37,
+                    "pull_time": "0001-01-01 00:00:00+00:00",
+                    "push_time": "2024-09-12 09:22:59.908000+00:00",
+                    "references": null,
+                    "repository_id": 46,
+                    "scan_overview": null,
+                    "size": 209098049,
+                    "tags": [
+                        {
+                            "artifact_id": 46,
+                            "id": 46,
+                            "immutable": false,
+                            "name": "latest",
+                            "pull_time": "0001-01-01 00:00:00+00:00",
+                            "push_time": "2024-09-12 09:23:00.278000+00:00",
+                            "repository_id": 46,
+                            "signed": false
+                        }
+                    ],
+                    "type": "IMAGE"
+                }
+            ],
+            "build_history": [
+                {
+                    "created": "2024-08-01T14:23:53.686453979Z",
+                    "created_by": "/bin/sh -c #(nop)  ARG RELEASE",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2024-08-01T14:23:53.721607185Z",
+                    "created_by": "/bin/sh -c #(nop)  ARG LAUNCHPAD_BUILD_ARCH",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2024-08-01T14:23:53.750942123Z",
+                    "created_by": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.ref.name=ubuntu",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2024-08-01T14:23:53.785081651Z",
+                    "created_by": "/bin/sh -c #(nop)  LABEL org.opencontainers.image.version=24.04",
+                    "empty_layer": true
+                },
+                {
+                    "created": "2024-08-01T14:23:55.660036165Z",
+                    "created_by": "/bin/sh -c #(nop) ADD file:c2e78eb585ec4e503f14c4ea98f4962c998f5eb075749507953f85387742694b in / "
+                },
+                {
+                    "created": "2024-08-01T14:23:55.913663537Z",
+                    "created_by": "/bin/sh -c #(nop)  CMD [\"/bin/bash\"]",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:06.920531396Z",
+                    "created_by": "ENV DEBIAN_FRONTEND=noninteractive",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:06.920531396Z",
+                    "created_by": "MAINTAINER Liam Siira <liam@siira.io>",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:06.920531396Z",
+                    "created_by": "LABEL Description=Web-based cloud IDE with minimal footprint and requirements.  Usage=docker run -d -p [HOST WWW PORT NUMBER]:80 hlsiira:latest Version=1.0",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:06.920531396Z",
+                    "created_by": "RUN /bin/sh -c apt-get update -y # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:24.894307735Z",
+                    "created_by": "RUN /bin/sh -c apt -y install software-properties-common # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:29.770927473Z",
+                    "created_by": "RUN /bin/sh -c add-apt-repository ppa:ondrej/php # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:36.452591377Z",
+                    "created_by": "RUN /bin/sh -c apt-get update && apt-get upgrade -y # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:38.282328889Z",
+                    "created_by": "RUN /bin/sh -c apt-get install -y zip unzip # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:56.531819309Z",
+                    "created_by": "RUN /bin/sh -c apt install -y php7.4 php7.4-mbstring php7.4-zip && apt install -y git apache2 libapache2-mod-php7.4 # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:56.624289869Z",
+                    "created_by": "RUN /bin/sh -c rm /var/www/html/* # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:58.172275244Z",
+                    "created_by": "RUN /bin/sh -c git clone https://github.com/Atheos/Atheos /tmp/Atheos # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:58.990226534Z",
+                    "created_by": "RUN /bin/sh -c mv /tmp/Atheos/* /var/www/html/ # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:59.760123939Z",
+                    "created_by": "RUN /bin/sh -c a2enmod rewrite && chown -R www-data:www-data /var/www/html # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:59.760123939Z",
+                    "created_by": "VOLUME [/var/www/html]",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:59.760123939Z",
+                    "created_by": "VOLUME [/etc/apache2]",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:59.760123939Z",
+                    "created_by": "CMD [\"apachectl\" \"-D\" \"FOREGROUND\"]",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:59.760123939Z",
+                    "created_by": "EXPOSE map[80/tcp:{}]",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-11T11:41:59.760123939Z",
+                    "created_by": "EXPOSE map[443/tcp:{}]",
+                    "empty_layer": true
+                }
+            ],
+            "creation_time": "2024-09-12 09:22:59.603000+00:00",
+            "description": "[author]: <> (Liam Siira)\n[subTitle]: <> (Atheos IDE, built on Codiad)\n[shortDescription]: <> (A self-hosted browser-based cloud IDE, updated from Codiad IDE)\n\n<div align=\"center\">\n    <h1><a href=\"https://atheos.io/\">Atheos IDE</a>, built on <a href=\"http://codiad.com/\">Codiad</a></h1>\n</div>\n\n<div align=\"center\">\n\n[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2c36f9f63b294165b604193efb8cc058)](https://www.codacy.com/gh/Atheos/Atheos?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Atheos/Atheos&amp;utm_campaign=Badge_Grade)\n[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)\n\n</div>\n\n\n<div style='margin:0 auto;width:80%;'>\n\n![Screenshot: Atheos](https://www.atheos.io/assets/images/atheos.png \"Atheos\")\n\n</div>\n\n## About\nAtheos is an updated and currently maintained fork of Codiad, a web-based IDE framework with a small footprint and minimal requirements. Atheos has been completely rewritten from the original Codiad project to utilize more modern tooling, cleaner code, and a wider arrange of features.\n\nFrom Codiad:\n> \"Codiad was built with simplicity in mind, allowing for fast, interactive development without the massive overhead of some of the larger desktop editors. That being said even users of IDE's such as Eclipse, NetBeans and Aptana are finding Codiad's simplicity to be a huge benefit. While simplicity was key, we didn't skimp on features and have a team of dedicated developer actively adding more.\"\n\nAtheos is expanding on that mentality as much as possible, trying to minimizing it's footprint even further while maximizing functionality and performance. The major goal of Atheos is to provide users with an easy, fast and fully featured Cloud Based IDE without a large server footprint.\n\nFor more information on the project please check out **[our homepage](http://www.atheos.io)**\n\n## Getting Started\n### Manual Installation\nAtheos can be installed by placing Atheos in a web accessible folder and pointing your browser to it.\n**Ensure that the following folders have write capabilities by your web server:**\n```\n/config.php\n/data\n/workspace\n/plugins\n/themes\n```\nIf any dependencies have not been met, the system will alert you on the installation screen.\n\n*Please note: Atheos is primarily developed using with a Debian LAMP Server. If you run into installation issues utilizing another stack, please let us know.*\n\n### Updating Atheos\nAtheos has a built in Update Check System, however does not have a system for actually updating the system itself, instead it relies on the admin to copy over the files itself. More information will be provided later as the update system is currently being rewrote.\n\nTo upgrade simply delete everything except the following or move these folders to a new directory:\n```\n/config.php\n/data\n/workspace\n/plugins\n/themes\n```\nNavigate to /themes and delete the default folder. Download the neweset verson from the Github repo and extract its content to the root directory of your Atheos installation.\n\nEnsure that the files and folder mentioned above still have write capabilities.\n\n### Docker\nAtheos can  also be installed using the [docker image on DockerHub]([https://hub.docker.com/r/hlsiira/atheos](https://hub.docker.com/r/hlsiira/atheos)).\n\n## Atheos vs Codiad\nAtheos is an almost complete rewrite of Codiad, using the latest best practices and technologies available by JavaScript and PHP. All libraries and source code updated, and hundreds of inefficiencies, bugs,  code duplicates, and non standard functions have been addressed. The most notable changes are:\n* A complete move from Get requests to Post requests to the server.\n* Brand new UX and Theme\n* A more complete user permission system \n* Massive reduction in unnecessary/repeated traffic from server to client\n* Complete removal of jQuery and it's plugins\n* Built-in Git integration\n* And an incredibly strong emphasis on standardized components and modules throughout the project in order to encourage easier plugin development and user contribution.\n\n## Contributing\nContributing to Atheos is very easy and we welcome all contributions. We strive for Atheos' source to follow an extremely standardized structure and as such, learning to understand the logic and structure of a single component within Atheos will carry over to all other components. If you want to contribute to Atheos but can't think of any ideas, please feel free to glance at the issues page for inspiration or email the team to see if there is anything you can help with.",
+            "id": 46,
+            "metadata": {
+                "author": "Liam Siira",
+                "shortDescription": "A self-hosted browser-based cloud IDE, updated from Codiad IDE",
+                "subTitle": "Atheos IDE, built on Codiad"
+            },
+            "name": "collaborative_tools/atheos",
+            "project_id": 37,
+            "pull_count": 0,
+            "update_time": "2024-09-13 03:57:49.819000+00:00"
+        }
+    ],
+    "togglable": null,
+    "update_time": "2024-09-12 08:15:32.447000+00:00"
+}

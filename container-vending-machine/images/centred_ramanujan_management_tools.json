@@ -1,0 +1,240 @@
+{
+    "chart_count": 0,
+    "creation_time": "2024-09-12 08:15:52.038000+00:00",
+    "current_user_role_id": 1,
+    "current_user_role_ids": [
+        1
+    ],
+    "cve_allowlist": {
+        "creation_time": "0001-01-01 00:00:00+00:00",
+        "expires_at": null,
+        "id": 38,
+        "items": [],
+        "project_id": 38,
+        "update_time": "0001-01-01 00:00:00+00:00"
+    },
+    "deleted": null,
+    "metadata": {
+        "auto_scan": null,
+        "enable_content_trust": null,
+        "enable_content_trust_cosign": null,
+        "instance": "centred_ramanujan",
+        "instanceUrl": "https://centred-ramanujan.container-registry.com",
+        "monthlyPrice": 3900,
+        "monthlyPriceId": "price_1Py9goDmAMB1YDyjPdDgZo68",
+        "oneTimePrice": 8900,
+        "oneTimePriceId": "price_1Py9h9DmAMB1YDyjfONqwNgV",
+        "prevent_vul": null,
+        "public": "false",
+        "retention_id": null,
+        "reuse_sys_cve_allowlist": null,
+        "severity": null
+    },
+    "name": "management_tools",
+    "owner_id": 1,
+    "owner_name": "admin",
+    "project_id": 38,
+    "registry_id": null,
+    "repo_count": 1,
+    "repositories": [
+        {
+            "artifact_count": 1,
+            "artifacts": [
+                {
+                    "accessories": null,
+                    "addition_links": {
+                        "build_history": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/management_tools/repositories/portainer-ce/artifacts/sha256:3e968b38359e04e3156179d5517ecb97fccb40215675844b5e1a596a7c37e2de/additions/build_history"
+                        },
+                        "vulnerabilities": {
+                            "absolute": false,
+                            "href": "/api/v2.0/projects/management_tools/repositories/portainer-ce/artifacts/sha256:3e968b38359e04e3156179d5517ecb97fccb40215675844b5e1a596a7c37e2de/additions/vulnerabilities"
+                        }
+                    },
+                    "annotations": null,
+                    "digest": "sha256:3e968b38359e04e3156179d5517ecb97fccb40215675844b5e1a596a7c37e2de",
+                    "extra_attrs": {
+                        "architecture": "amd64",
+                        "author": "",
+                        "config": {
+                            "Entrypoint": [
+                                "/portainer"
+                            ],
+                            "Env": [
+                                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+                            ],
+                            "ExposedPorts": {
+                                "8000/tcp": {},
+                                "9000/tcp": {},
+                                "9443/tcp": {}
+                            },
+                            "Labels": {
+                                "com.docker.desktop.extension.api.version": ">= 0.2.2",
+                                "com.docker.desktop.extension.icon": "https://portainer-io-assets.sfo2.cdn.digitaloceanspaces.com/logos/portainer.png",
+                                "com.docker.extension.additional-urls": "[{\"title\":\"Website\",\"url\":\"https://www.portainer.io?utm_campaign=DockerCon&utm_source=DockerDesktop\"},{\"title\":\"Documentation\",\"url\":\"https://docs.portainer.io\"},{\"title\":\"Support\",\"url\":\"https://join.slack.com/t/portainer/shared_invite/zt-txh3ljab-52QHTyjCqbe5RibC2lcjKA\"}]",
+                                "com.docker.extension.detailed-description": "<p data-renderer-start-pos=\"226\">Portainer&rsquo;s Docker Desktop extension gives you access to all of Portainer&rsquo;s rich management functionality within your docker desktop experience.</p><h2 data-renderer-start-pos=\"374\">With Portainer you can:</h2><ul><li>See all your running containers</li><li>Easily view all of your container logs</li><li>Console into containers</li><li>Easily deploy your code into containers using a simple form</li><li>Turn your YAML into custom templates for easy reuse</li></ul><h2 data-renderer-start-pos=\"660\">About Portainer&nbsp;</h2><p data-renderer-start-pos=\"680\">Portainer is the worlds&rsquo; most popular universal container management platform with more than 650,000 active monthly users. Portainer can be used to manage Docker Standalone, Kubernetes, Docker Swarm and Nomad environments through a single common interface. It includes a simple GitOps automation engine and a Kube API.&nbsp;</p><p data-renderer-start-pos=\"1006\">Portainer Business Edition is our fully supported commercial grade product for business-wide use. It includes all the functionality that businesses need to manage containers at scale. Visit <a class=\"sc-jKJlTe dPfAtb\" href=\"http://portainer.io/\" title=\"http://Portainer.io\" data-renderer-mark=\"true\">Portainer.io</a> to learn more about Portainer Business and <a class=\"sc-jKJlTe dPfAtb\" href=\"http://portainer.io/take-3?utm_campaign=DockerCon&amp;utm_source=Docker%20Desktop\" title=\"http://portainer.io/take-3?utm_campaign=DockerCon&amp;utm_source=Docker%20Desktop\" data-renderer-mark=\"true\">get 3 free nodes.</a></p>",
+                                "com.docker.extension.publisher-url": "https://www.portainer.io",
+                                "com.docker.extension.screenshots": "[{\"alt\": \"screenshot one\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-1.png\"},{\"alt\": \"screenshot two\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-2.png\"},{\"alt\": \"screenshot three\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-3.png\"},{\"alt\": \"screenshot four\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-4.png\"},{\"alt\": \"screenshot five\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-5.png\"},{\"alt\": \"screenshot six\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-6.png\"},{\"alt\": \"screenshot seven\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-7.png\"},{\"alt\": \"screenshot eight\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-8.png\"},{\"alt\": \"screenshot nine\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-9.png\"}]",
+                                "io.portainer.server": "true",
+                                "org.opencontainers.image.description": "Docker container management made simple, with the world\u2019s most popular GUI-based container management platform.",
+                                "org.opencontainers.image.title": "Portainer",
+                                "org.opencontainers.image.vendor": "Portainer.io"
+                            },
+                            "Volumes": {
+                                "/data": {}
+                            },
+                            "WorkingDir": "/"
+                        },
+                        "created": "2024-09-09T21:30:41.611630742Z",
+                        "os": "linux"
+                    },
+                    "icon": "sha256:0048162a053eef4d4ce3fe7518615bef084403614f8bca43b40ae2e762e11e06",
+                    "id": 47,
+                    "labels": null,
+                    "manifest_media_type": "application/vnd.docker.distribution.manifest.v2+json",
+                    "media_type": "application/vnd.docker.container.image.v1+json",
+                    "project_id": 38,
+                    "pull_time": "0001-01-01 00:00:00+00:00",
+                    "push_time": "2024-09-12 09:23:42.301000+00:00",
+                    "references": null,
+                    "repository_id": 47,
+                    "scan_overview": null,
+                    "size": 100481368,
+                    "tags": [
+                        {
+                            "artifact_id": 47,
+                            "id": 47,
+                            "immutable": false,
+                            "name": "latest",
+                            "pull_time": "0001-01-01 00:00:00+00:00",
+                            "push_time": "2024-09-12 09:23:42.643000+00:00",
+                            "repository_id": 47,
+                            "signed": false
+                        }
+                    ],
+                    "type": "IMAGE"
+                }
+            ],
+            "build_history": [
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-08-14T22:10:52.87142974Z",
+                    "created_by": "COPY /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-08-14T22:10:52.933070682Z",
+                    "created_by": "COPY /buildtmp /tmp # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:40.282888316Z",
+                    "created_by": "LABEL org.opencontainers.image.title=Portainer org.opencontainers.image.description=Docker container management made simple, with the world\u2019s most popular GUI-based container management platform. org.opencontainers.image.vendor=Portainer.io com.docker.desktop.extension.api.version=>= 0.2.2 com.docker.desktop.extension.icon=https://portainer-io-assets.sfo2.cdn.digitaloceanspaces.com/logos/portainer.png com.docker.extension.screenshots=[{\"alt\": \"screenshot one\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-1.png\"},{\"alt\": \"screenshot two\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-2.png\"},{\"alt\": \"screenshot three\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-3.png\"},{\"alt\": \"screenshot four\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-4.png\"},{\"alt\": \"screenshot five\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-5.png\"},{\"alt\": \"screenshot six\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-6.png\"},{\"alt\": \"screenshot seven\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-7.png\"},{\"alt\": \"screenshot eight\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-8.png\"},{\"alt\": \"screenshot nine\", \"url\": \"https://portainer-io-assets.sfo2.digitaloceanspaces.com/screenshots/docker-extension-9.png\"}] com.docker.extension.detailed-description=<p data-renderer-start-pos=\"226\">Portainer&rsquo;s Docker Desktop extension gives you access to all of Portainer&rsquo;s rich management functionality within your docker desktop experience.</p><h2 data-renderer-start-pos=\"374\">With Portainer you can:</h2><ul><li>See all your running containers</li><li>Easily view all of your container logs</li><li>Console into containers</li><li>Easily deploy your code into containers using a simple form</li><li>Turn your YAML into custom templates for easy reuse</li></ul><h2 data-renderer-start-pos=\"660\">About Portainer&nbsp;</h2><p data-renderer-start-pos=\"680\">Portainer is the worlds&rsquo; most popular universal container management platform with more than 650,000 active monthly users. Portainer can be used to manage Docker Standalone, Kubernetes, Docker Swarm and Nomad environments through a single common interface. It includes a simple GitOps automation engine and a Kube API.&nbsp;</p><p data-renderer-start-pos=\"1006\">Portainer Business Edition is our fully supported commercial grade product for business-wide use. It includes all the functionality that businesses need to manage containers at scale. Visit <a class=\"sc-jKJlTe dPfAtb\" href=\"http://portainer.io/\" title=\"http://Portainer.io\" data-renderer-mark=\"true\">Portainer.io</a> to learn more about Portainer Business and <a class=\"sc-jKJlTe dPfAtb\" href=\"http://portainer.io/take-3?utm_campaign=DockerCon&amp;utm_source=Docker%20Desktop\" title=\"http://portainer.io/take-3?utm_campaign=DockerCon&amp;utm_source=Docker%20Desktop\" data-renderer-mark=\"true\">get 3 free nodes.</a></p> com.docker.extension.publisher-url=https://www.portainer.io com.docker.extension.additional-urls=[{\"title\":\"Website\",\"url\":\"https://www.portainer.io?utm_campaign=DockerCon&utm_source=DockerDesktop\"},{\"title\":\"Documentation\",\"url\":\"https://docs.portainer.io\"},{\"title\":\"Support\",\"url\":\"https://join.slack.com/t/portainer/shared_invite/zt-txh3ljab-52QHTyjCqbe5RibC2lcjKA\"}]",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:40.282888316Z",
+                    "created_by": "COPY dist/docker / # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:40.594120218Z",
+                    "created_by": "COPY dist/docker-compose / # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:40.849543164Z",
+                    "created_by": "COPY dist/helm / # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:41.138665711Z",
+                    "created_by": "COPY dist/kubectl / # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:41.149893086Z",
+                    "created_by": "COPY dist/mustache-templates /mustache-templates/ # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:41.385601658Z",
+                    "created_by": "COPY dist/portainer / # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:41.583029675Z",
+                    "created_by": "COPY dist/public /public/ # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:41.596498955Z",
+                    "created_by": "COPY build/docker-extension / # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:41.611630742Z",
+                    "created_by": "COPY dist/storybook* /storybook/ # buildkit"
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:41.611630742Z",
+                    "created_by": "VOLUME [/data]",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:41.611630742Z",
+                    "created_by": "WORKDIR /",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:41.611630742Z",
+                    "created_by": "EXPOSE map[9000/tcp:{}]",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:41.611630742Z",
+                    "created_by": "EXPOSE map[9443/tcp:{}]",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:41.611630742Z",
+                    "created_by": "EXPOSE map[8000/tcp:{}]",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:41.611630742Z",
+                    "created_by": "LABEL io.portainer.server=true",
+                    "empty_layer": true
+                },
+                {
+                    "comment": "buildkit.dockerfile.v0",
+                    "created": "2024-09-09T21:30:41.611630742Z",
+                    "created_by": "ENTRYPOINT [\"/portainer\"]",
+                    "empty_layer": true
+                }
+            ],
+            "creation_time": "2024-09-12 09:23:42.027000+00:00",
+            "description": "[author]: <> (Portainer.io)\n[shortDescription]: <> (Making Docker and Kubernetes management easy.)\n[subTitle]: <> (Portainer CE - a lightweight service delivery platform for containerized applications)\n\n<p align=\"center\">\n  <img title=\"portainer\" src='https://github.com/portainer/portainer/blob/develop/app/assets/images/portainer-github-banner.png?raw=true' />\n</p>\n\n**Portainer Community Edition** is a lightweight service delivery platform for containerized applications that can be used to manage Docker, Swarm, Kubernetes and ACI environments. It is designed to be as simple to deploy as it is to use. The application allows you to manage all your orchestrator resources (containers, images, volumes, networks and more) through a \u2018smart\u2019 GUI and/or an extensive API.\n\nPortainer consists of a single container that can run on any cluster. It can be deployed as a Linux container or a Windows native container.\n\n**Portainer Business Edition** builds on the open-source base and includes a range of advanced features and functions (like RBAC and Support) that are specific to the needs of business users.\n\n- [Compare Portainer CE and Compare Portainer BE](https://portainer.io/products)\n- [Take3 \u2013 get 3 free nodes of Portainer Business for as long as you want them](https://www.portainer.io/take-3)\n- [Portainer BE install guide](https://install.portainer.io)\n\n## Latest Version\n\nPortainer CE is updated regularly. We aim to do an update release every couple of months.\n\n[![latest version](https://img.shields.io/github/v/release/portainer/portainer?color=%2344cc11&label=Latest%20release&style=for-the-badge)](https://github.com/portainer/portainer/releases/latest)\n\n## Getting started\n\n- [Deploy Portainer](https://docs.portainer.io/start/install)\n- [Documentation](https://docs.portainer.io)\n- [Contribute to the project](https://docs.portainer.io/contribute/contribute)\n\n## Features & Functions\n\nView [this](https://www.portainer.io/products) table to see all of the Portainer CE functionality and compare to Portainer Business.\n\n- [Portainer CE for Docker / Docker Swarm](https://www.portainer.io/solutions/docker)\n- [Portainer CE for Kubernetes](https://www.portainer.io/solutions/kubernetes-ui)\n\n## Getting help\n\nPortainer CE is an open source project and is supported by the community. You can buy a supported version of Portainer at portainer.io\n\nLearn more about Portainer's community support channels [here.](https://www.portainer.io/get-support-for-portainer)\n\n- Issues: https://github.com/portainer/portainer/issues\n- Slack (chat): [https://portainer.io/slack](https://portainer.io/slack)\n\nYou can join the Portainer Community by visiting [https://www.portainer.io/join-our-community](https://www.portainer.io/join-our-community). This will give you advance notice of events, content and other related Portainer content.\n\n## Reporting bugs and contributing\n\n- Want to report a bug or request a feature? Please open [an issue](https://github.com/portainer/portainer/issues/new).\n- Want to help us build **_portainer_**? Follow our [contribution guidelines](https://docs.portainer.io/contribute/contribute) to build it locally and make a pull request.\n\n## Security\n\n- Here at Portainer, we believe in [responsible disclosure](https://en.wikipedia.org/wiki/Responsible_disclosure) of security issues. If you have found a security issue, please report it to <security@portainer.io>.\n\n## Work for us\n\nIf you are a developer, and our code in this repo makes sense to you, we would love to hear from you. We are always on the hunt for awesome devs, either freelance or employed. Drop us a line to info@portainer.io with your details and/or visit our [careers page](https://portainer.io/careers).\n\n## Privacy\n\n**To make sure we focus our development effort in the right places we need to know which features get used most often. To give us this information we use [Matomo Analytics](https://matomo.org/), which is hosted in Germany and is fully GDPR compliant.**\n\nWhen Portainer first starts, you are given the option to DISABLE analytics. If you **don't** choose to disable it, we collect anonymous usage as per [our privacy policy](https://www.portainer.io/privacy-policy). **Please note**, there is no personally identifiable information sent or stored at any time and we only use the data to help us improve Portainer.\n\n## Limitations\n\nPortainer supports \"Current - 2 docker versions only. Prior versions may operate, however these are not supported.\n\n## Licensing\n\nPortainer is licensed under the zlib license. See [LICENSE](./LICENSE) for reference.\n\nPortainer also contains code from open source projects. See [ATTRIBUTIONS.md](./ATTRIBUTIONS.md) for a list.\n",
+            "id": 47,
+            "metadata": {
+                "author": "Portainer.io",
+                "shortDescription": "Making Docker and Kubernetes management easy.",
+                "subTitle": "Portainer CE - a lightweight service delivery platform for containerized applications"
+            },
+            "name": "management_tools/portainer-ce",
+            "project_id": 38,
+            "pull_count": 0,
+            "update_time": "2024-09-13 03:59:22.989000+00:00"
+        }
+    ],
+    "togglable": null,
+    "update_time": "2024-09-12 08:15:52.038000+00:00"
+}
